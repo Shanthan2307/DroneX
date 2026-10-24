@@ -53,6 +53,29 @@ cargo run --locked -p dronex -- rpc call vehicle/list
 
 An empty list means the service is running and waiting for a vehicle connection.
 
+## Web app
+
+`apps/web` is a browser interface for the daemon: start simulations, connect
+vehicles, fly from the cockpit or by clicking the map, run missions, edit
+parameters and talk to the agent. It needs [Node.js](https://nodejs.org).
+
+```sh
+cd apps/web && npm install && npm run build && cd ../..
+DRONEX_NO_TRAY=1 cargo run --locked -p dronex -- daemon --ui-dir apps/web/dist
+cargo run --locked -p dronex -- open
+```
+
+`dronex open` signs the browser in. For a simulator to fly, build one first
+with `scripts/sitl.sh copter`.
+
+To work on the app with live reload, run the daemon with `--dev` (it listens
+on 45100 and trusts the dev server) and `npm run dev` in `apps/web`, then open
+the link the daemon prints:
+
+```sh
+DRONEX_NO_TRAY=1 DRONEX_TERRAIN_URL=none cargo run --locked -p dronex -- --dev daemon
+```
+
 ## Explore
 
 | Start here                                  | What you will find                                    |

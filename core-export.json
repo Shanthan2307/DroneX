@@ -36,12 +36,112 @@
     },
     {
       "path": "README.md",
-      "sha256": "94bb58608cc7faa599ae655d7f5ebc01cd2aa573955906fbf303195ac5aa0a55",
+      "sha256": "9508d67aa4b8933348759847a933ff7492b50912671e634d8ca37a53b81d7ba9",
       "executable": false
     },
     {
       "path": "THIRD_PARTY.md",
       "sha256": "3f2d2844749f2716679e99c590e632ed4e889d8e044ea1505882d786f344b963",
+      "executable": false
+    },
+    {
+      "path": "apps/web/.gitignore",
+      "sha256": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910",
+      "executable": false
+    },
+    {
+      "path": "apps/web/index.html",
+      "sha256": "2ffa32e4f8530ec30437d427ffcabe5c8f9ac86c7bd1a989c71ba05a7ad4b8ae",
+      "executable": false
+    },
+    {
+      "path": "apps/web/package-lock.json",
+      "sha256": "057710310c9a1946b00262fee3b8e0e98a2e2a6cc91d725f293a26979e4e5100",
+      "executable": false
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha256": "06d1c018bda6e3c366427e5234822ae7cfbfb31dc1d63e3bf57bd3f937fd2e29",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "0cd40849500ca6a97c1a07e964088e5574f081e89ed438b8e63a589a82a0dd49",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/commands.ts",
+      "sha256": "637e8b67ee5f70f25547af40ceb5aa848f0a44749c2efd31aea711949331aee6",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Approvals.tsx",
+      "sha256": "b4951f07617f537eda43542736f21015ac3672aef71454322f1eebbba18dbaba",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Chat.tsx",
+      "sha256": "c2de83b9f2fa267b1a346595d46e573a5bc0e8c4416c176f3a9e65d35ed1afc6",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Cockpit.tsx",
+      "sha256": "dffe5643c6d0d3135b8334528aa424c06f2fc6a33a4f281dd50001335b3301b2",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Fleet.tsx",
+      "sha256": "778e9638378f7acafc471d3bd0da08a03ceb96c89cc5bf4474796db17569fdfe",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Home.tsx",
+      "sha256": "65a885b6fc8739f094f9cebe2d002ff91f8442bfa7a51ed0ec8aff2ffe0931ed",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/MapPane.tsx",
+      "sha256": "e7aca7e319847784e9f7fecb2e28495a12556511cadb88105a6d1eb736843aab",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Parameters.tsx",
+      "sha256": "84e2949b5e19055a892f89f8942b5c6ce8afe0cf4590ef051abc5f7b1ccf5c06",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/components/Plans.tsx",
+      "sha256": "2724fda6743d9ffeb40f9fdd6e36fae6a19852644d6a2c26fb23623aef3427ab",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "f96b2472960d76791cbba8164e20ca0cfd1f8308a01c34b7c44397e1d46b1136",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/rpc.ts",
+      "sha256": "7cb68678f287c56fd1b200ad64033cc2103bd9f7ba4dd41028b9e2dbac164477",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/store.ts",
+      "sha256": "115417ffa749c13dee8faedec6310b4d13e7813dc80fe81af461fabf50cbccab",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "sha256": "c12f50024c659f94469059716967983974f4b2170e1c24ae6217cce3272a5e1d",
+      "executable": false
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "sha256": "7f433aae459a5c25ed67ae3ee1ab36c60fda409ec5c298131b0186cdec96d022",
+      "executable": false
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "sha256": "ef769425221c590501f37ba5e4335f8114ed4644ddf963689591a63491c22ea0",
       "executable": false
     },
     {
