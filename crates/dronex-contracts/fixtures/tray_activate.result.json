@@ -1,0 +1,5 @@
+{
+  "type": "launch",
+  "path": "/Applications/DroneX.app/Contents/MacOS/DroneX",
+  "args": ["--feedback=ss0123456789abcdef"]
+}

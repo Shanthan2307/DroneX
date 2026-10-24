@@ -1,0 +1,7 @@
+{
+  "environment": "staging",
+  "apiUrl": "https://api-staging.dronex.example",
+  "selected": null,
+  "canChange": true,
+  "restartRequired": false
+}
