@@ -186,7 +186,7 @@ export async function start() {
   rpc.onClose = () => setState({ connection: "disconnected" });
 
   await rpc.call("initialize", {
-    clientInfo: { name: "DroneX Web", version: "0.1.0", kind: "operator-ui" },
+    clientInfo: { name: "DroneX Web", version: __BUILD_ID__.split("+")[0], kind: "operator-ui" },
     capabilities: { protocolVersion: 1, binaryChannels: false, approvals: true, optOutNotifications: ["log/line"] },
   });
 

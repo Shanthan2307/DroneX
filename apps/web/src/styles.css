@@ -410,7 +410,7 @@ input[type="checkbox"] {
   position: absolute;
   top: 10px;
   right: 10px;
-  z-index: 500;
+  z-index: 2;
   display: flex;
   gap: 6px;
 }
@@ -431,8 +431,8 @@ input[type="checkbox"] {
 .fly-here {
   position: absolute;
   left: 10px;
-  bottom: 10px;
-  z-index: 500;
+  bottom: 34px;
+  z-index: 3;
   width: 270px;
   display: flex;
   flex-direction: column;
@@ -445,13 +445,75 @@ input[type="checkbox"] {
 }
 
 .vehicle-marker {
-  background: none;
-  border: none;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
 }
 
-.leaflet-container {
-  background: var(--surface-2);
-  font: inherit;
+.vehicle-marker .ring {
+  fill: rgb(255 255 255 / 0.92);
+  stroke: #6b7280;
+  stroke-width: 2;
+}
+
+.vehicle-marker .arrow {
+  fill: #6b7280;
+}
+
+.vehicle-marker.selected .ring {
+  stroke: #2563eb;
+}
+
+.vehicle-marker.selected .arrow {
+  fill: #2563eb;
+}
+
+.vehicle-marker.armed .ring {
+  stroke: #dc2626;
+}
+
+.vehicle-marker.armed .arrow {
+  fill: #dc2626;
+}
+
+.segmented {
+  display: flex;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.12);
+}
+
+.segmented button {
+  border: none;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 12px;
+  background: transparent;
+}
+
+.segmented button.active {
+  background: var(--accent);
+  color: white;
+}
+
+.chip.on,
+.chip.on:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.map-status {
+  position: absolute;
+  top: 46px;
+  right: 10px;
+  z-index: 2;
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
 }
 
 /* Cockpit. */

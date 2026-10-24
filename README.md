@@ -66,7 +66,15 @@ cargo run --locked -p dronex -- open
 ```
 
 `dronex open` signs the browser in. For a simulator to fly, build one first
-with `scripts/sitl.sh copter`.
+with `scripts/sitl.sh copter`. After `npm run build`, restart the daemon: it
+reads the build's `version.json` once, at start.
+
+The map needs no keys: satellite imagery and labels from Esri World Imagery,
+streets from OpenStreetMap, and 3D ground heights from the
+[AWS Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) open data
+set. Esri's free imagery is for development and non-commercial use; a product
+needs an ArcGIS account, and heavy use of OpenStreetMap's tiles needs a tile
+provider of your own.
 
 To work on the app with live reload, run the daemon with `--dev` (it listens
 on 45100 and trusts the dev server) and `npm run dev` in `apps/web`, then open

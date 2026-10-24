@@ -57,7 +57,7 @@ function useConnection() {
         fetch("/interface/ready", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ version: "0.1.0" }),
+          body: JSON.stringify({ version: __BUILD_ID__ }),
         }).catch(() => {});
       } catch (e) {
         setError(errorText(e));

@@ -36,7 +36,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "9508d67aa4b8933348759847a933ff7492b50912671e634d8ca37a53b81d7ba9",
+      "sha256": "2916cec227a0b7311a4923ebf07d9573de96eaaa48383a970b993030df35fa0f",
       "executable": false
     },
     {
@@ -56,17 +56,17 @@
     },
     {
       "path": "apps/web/package-lock.json",
-      "sha256": "057710310c9a1946b00262fee3b8e0e98a2e2a6cc91d725f293a26979e4e5100",
+      "sha256": "0ddd7a108df354b986e7fdd34982d109f142d59d243591a2ec7990f1f2069c1d",
       "executable": false
     },
     {
       "path": "apps/web/package.json",
-      "sha256": "06d1c018bda6e3c366427e5234822ae7cfbfb31dc1d63e3bf57bd3f937fd2e29",
+      "sha256": "c9ec9fbc7fa1c59338353893b8bb0ee484139801c11ebac89171d94cca26c289",
       "executable": false
     },
     {
       "path": "apps/web/src/App.tsx",
-      "sha256": "0cd40849500ca6a97c1a07e964088e5574f081e89ed438b8e63a589a82a0dd49",
+      "sha256": "c2bb48c42d191a3715d696d50cd5f1dec70aba872ee2830b80c049dc4fad9a5e",
       "executable": false
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "path": "apps/web/src/components/MapPane.tsx",
-      "sha256": "e7aca7e319847784e9f7fecb2e28495a12556511cadb88105a6d1eb736843aab",
+      "sha256": "cafa05626edcd98a2ea306541cf511dd65b36d0993cbc78481722bc7389178d7",
       "executable": false
     },
     {
@@ -112,6 +112,11 @@
     {
       "path": "apps/web/src/components/Plans.tsx",
       "sha256": "2724fda6743d9ffeb40f9fdd6e36fae6a19852644d6a2c26fb23623aef3427ab",
+      "executable": false
+    },
+    {
+      "path": "apps/web/src/env.d.ts",
+      "sha256": "91d7849a7c693772c1ca0b206083738aeaa839bb74c93a360a14feddaca1488e",
       "executable": false
     },
     {
@@ -126,12 +131,12 @@
     },
     {
       "path": "apps/web/src/store.ts",
-      "sha256": "115417ffa749c13dee8faedec6310b4d13e7813dc80fe81af461fabf50cbccab",
+      "sha256": "17ca98d2cadd4aa6340b6245db29c69bcf39ce86303d843651e982dc4b05f300",
       "executable": false
     },
     {
       "path": "apps/web/src/styles.css",
-      "sha256": "c12f50024c659f94469059716967983974f4b2170e1c24ae6217cce3272a5e1d",
+      "sha256": "2ea8f91dd5f7820f25c95e6737aff037d937f167a0a0f624a951c60ac82e8638",
       "executable": false
     },
     {
@@ -141,7 +146,7 @@
     },
     {
       "path": "apps/web/vite.config.ts",
-      "sha256": "ef769425221c590501f37ba5e4335f8114ed4644ddf963689591a63491c22ea0",
+      "sha256": "27db8047f591a2ed9f455ad58660f2302d0168ecebcd851fe7e57d68e45f3b88",
       "executable": false
     },
     {
