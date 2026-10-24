@@ -5,8 +5,8 @@ use std::path::{Path, PathBuf};
 use std::process::{Child, ChildStdin, Command, Stdio};
 use std::time::Duration;
 
-use serde::Deserialize;
 use dronex_contracts::dto::update::UpdatePhase;
+use serde::Deserialize;
 
 use super::{EngineHandle, HANDOFF_PIPE, Plan, publish_channel_failure, status};
 

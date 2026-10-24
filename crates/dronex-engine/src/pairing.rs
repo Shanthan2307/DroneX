@@ -6,8 +6,8 @@
 
 use std::collections::HashMap;
 
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::pairing::PairingRequest;
+use sha2::{Digest, Sha256};
 
 use crate::commands::Raise;
 use crate::runtime::{Clock, Persistence, Random};

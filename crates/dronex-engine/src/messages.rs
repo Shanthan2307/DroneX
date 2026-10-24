@@ -24,8 +24,6 @@
 
 use std::collections::{BTreeMap, BTreeSet, VecDeque};
 
-use serde_json::Value;
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::messages::{
     VehicleMessage, VehicleMessagesParams, VehicleMessagesResult,
 };
@@ -38,6 +36,8 @@ use dronex_core::domain::notification::{
 };
 use dronex_core::domain::vehicle::Vehicle;
 use dronex_core::events::Change;
+use serde_json::Value;
+use sha2::{Digest, Sha256};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

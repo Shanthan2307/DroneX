@@ -16,12 +16,12 @@ use std::path::{Component, Path};
 use std::sync::{Arc, Mutex, PoisonError};
 use std::time::Duration;
 
-use serde::{Deserialize, Serialize};
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::sim::{
     CATALOGUE_SCHEMA, CatalogueBuild, CatalogueEntry, CatalogueFile, SimCatalogue,
     SimCatalogueResult,
 };
+use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256};
 
 use super::{BUILD_FILE, Simulators};
 

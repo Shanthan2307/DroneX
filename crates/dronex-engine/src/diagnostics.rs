@@ -1,12 +1,12 @@
 //! Read-only diagnostic queries. Evidence is kept by the composition root;
 //! identity, permissions and bounds are checked here before touching the host.
 use crate::Engine;
-use serde_json::Value;
 use dronex_contracts::dto::diagnostics::{LinkDiagnoseResult, RouterEventsParams};
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::link::LinkKind;
+use serde_json::Value;
 
 /// Resolve a diagnostic time range.
 /// # Errors

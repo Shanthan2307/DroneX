@@ -14,11 +14,11 @@ use std::path::{Path, PathBuf};
 use std::sync::Arc;
 use std::time::Duration;
 
+use dronex_core::events::Event;
+use dronex_engine::sync::{Outgoing, Pulled, SyncChange, SyncPort, outgoing};
 use serde::Deserialize;
 use serde_json::json;
 use tokio::sync::Notify;
-use dronex_core::events::Event;
-use dronex_engine::sync::{Outgoing, Pulled, SyncChange, SyncPort, outgoing};
 
 use crate::adapters::credentials::FileCredentials;
 use crate::daemon::engine_task::EngineHandle;

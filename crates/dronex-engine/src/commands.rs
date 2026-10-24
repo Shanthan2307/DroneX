@@ -3,7 +3,6 @@
 //! receipt, hands the command to the data plane, and answers when the
 //! vehicle has acknowledged it or every retry has timed out.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::command::{
     CommandInfo, CommandListResult, CommandSendParams, ModeFamily, ModeInfo, ModeKind,
     ModeListParams, ModeListResult, Receipt as ReceiptDto,
@@ -24,6 +23,7 @@ use dronex_core::domain::parameter::parameter_id;
 use dronex_core::domain::telemetry::AltitudeFrame;
 use dronex_core::domain::vehicle::{Presence, Vehicle};
 use dronex_core::events::{Actor, Change};
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::runtime::CommandOrder;

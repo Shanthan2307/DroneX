@@ -14,7 +14,6 @@ pub(crate) mod queries;
 use std::collections::{BTreeMap, BTreeSet, HashMap};
 use std::sync::Arc;
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::param_definitions::{
     self as dto, CatalogueSet, DefinitionsAddParams, DefinitionsListResult, ParamDefinitionsResult,
 };
@@ -28,6 +27,7 @@ use dronex_core::domain::param_definitions::{
     OwnSet, VehicleDefinitions, Version, choose,
 };
 use dronex_core::events::{Actor, Change};
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine, upsert};

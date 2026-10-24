@@ -14,11 +14,11 @@ use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, AtomicU8, Ordering};
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 
+use dronex_core::domain::link::UsbId;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::net::tcp::{OwnedReadHalf, OwnedWriteHalf};
 use tokio::net::{TcpListener, TcpStream, UdpSocket};
 use tokio::sync::{mpsc, watch};
-use dronex_core::domain::link::UsbId;
 
 /// What a link reports.
 #[derive(Clone, Debug, PartialEq, Eq)]

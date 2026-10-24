@@ -1,10 +1,10 @@
 //! The Tokio task that owns the engine, making it the single writer
 //! (ADR-0001 D15). Listeners talk to it through an [`EngineHandle`].
 
-use tokio::sync::{mpsc, oneshot, watch};
 use dronex_contracts::dto::trace::Transport;
 use dronex_core::policy::admission::Trust;
 use dronex_engine::{ConnectionId, Engine, Outbox, PairingState, Session};
+use tokio::sync::{mpsc, oneshot, watch};
 
 enum Command {
     Connect {

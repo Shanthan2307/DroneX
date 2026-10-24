@@ -16,11 +16,11 @@ use session::Session;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 
+use dronex_contracts::dto::analytics::{AnalyticsEvent, DaemonEvent, PackageKind};
+use dronex_engine::runtime::AnalyticsPort;
 use rusqlite::{Connection, OptionalExtension, params};
 use serde_json::{Map, Value, json};
 use tokio::sync::mpsc;
-use dronex_contracts::dto::analytics::{AnalyticsEvent, DaemonEvent, PackageKind};
-use dronex_engine::runtime::AnalyticsPort;
 
 /// `PostHog`'s managed reverse proxy for DroneX (ADR-0016 O16).
 pub const HOST: &str = "https://bill.dronex.example";

@@ -4,7 +4,6 @@
 //! word that does, then one that contains it anywhere. No network, and
 //! nothing about the query is kept.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::link::IdParams;
 use dronex_contracts::dto::search::{
     Coordinates, PlaceSaveParams, PlaceUpdateParams, SavedPlace as PlaceDto, SearchHit, SearchKind,
@@ -16,6 +15,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::place::SavedPlace;
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine, upsert};

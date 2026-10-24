@@ -9,13 +9,13 @@
 //! no data, a file that did not check out) is never guessed: its group is
 //! not sent, and a notification names the vehicle and the place.
 
-use serde_json::Value;
-use std::collections::{BTreeMap, BTreeSet};
 use dronex_contracts::dto::terrain::{
     TerrainAtParams, TerrainAtResult, TerrainDataset, TerrainMissing,
 };
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::ClientRequest;
+use serde_json::Value;
+use std::collections::{BTreeMap, BTreeSet};
 
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::link::LinkKind;

@@ -4,8 +4,8 @@ use std::os::unix::fs::MetadataExt;
 use std::path::Path;
 use std::process::Command;
 
-use rustix::fs::{CWD, RenameFlags, renameat_with};
 use dronex_contracts::dto::release::BundleFiles;
+use rustix::fs::{CWD, RenameFlags, renameat_with};
 
 const REQUIREMENT: &str = "=identifier \"com.dronex.app\" and anchor apple generic and certificate leaf[subject.OU] = \"N938V577RX\"";
 

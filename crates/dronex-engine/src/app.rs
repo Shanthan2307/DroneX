@@ -2,7 +2,6 @@
 //! DroneX while a page is connected brings that page forward and opens
 //! nothing new; quitting says first what would stop.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::app::{
     AppFocusResult, AppOpenParams, AppOpenResult, ClientVisibilityParams, DesktopAppChooseParams,
     DesktopAppState, DesktopAppStatus, StopCount, StopKind, StopPreview,
@@ -16,6 +15,7 @@ use dronex_core::domain::vehicle::Presence;
 use dronex_core::domain::video::RecordingState;
 use dronex_core::events::Change;
 use dronex_core::policy::admission::Trust;
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

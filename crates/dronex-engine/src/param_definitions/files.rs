@@ -5,11 +5,11 @@
 
 use std::io::Read as _;
 
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::param_definitions::{
     CatalogueSet, DEFINITION_CATALOGUE_SCHEMA, DefinitionCatalogue,
 };
 use dronex_core::domain::param_definitions::DefinitionSet;
+use sha2::{Digest, Sha256};
 
 /// Where the catalogue is published, beside the simulator catalogue.
 pub const DEFAULT_URL: &str = "https://simulators.dronex.example/parameters/catalogue.json";

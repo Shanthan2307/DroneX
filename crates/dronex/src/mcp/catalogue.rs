@@ -1,8 +1,8 @@
 //! Small, stable MCP entry points; vehicle tool schemas still come from contracts.
 
+use dronex_agent::tools::Tool;
 use serde::Deserialize;
 use serde_json::{Value, json};
-use dronex_agent::tools::Tool;
 
 pub const SEARCH: &str = "dronex_search_tools";
 pub const CALL: &str = "dronex_call_tool";

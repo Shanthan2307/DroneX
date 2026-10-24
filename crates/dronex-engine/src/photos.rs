@@ -4,7 +4,6 @@
 //! platform's pictures folder.
 
 use base64::Engine as _;
-use serde_json::Value;
 use dronex_contracts::dto::state::{EntityChange, EntityType};
 use dronex_contracts::dto::video::{
     PHOTO_MAX, VideoPhoto as VideoPhotoDto, VideoPhotoParams, VideoPhotoShowParams,
@@ -15,6 +14,7 @@ use dronex_core::domain::telemetry::AltitudeFrame;
 use dronex_core::domain::video::VideoPhoto;
 use dronex_core::events::{Actor, Change};
 use dronex_media::photo::{Civil, Tags, jpeg_size, with_exif};
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::{Engine, upsert};

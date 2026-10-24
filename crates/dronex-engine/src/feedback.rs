@@ -9,7 +9,6 @@
 
 use std::collections::VecDeque;
 
-use serde_json::{Map, Value};
 use dronex_contracts::dto::analytics::Surface;
 use dronex_contracts::dto::feedback::{
     BUNDLE_SCHEMA, BundleChatItem, BundleDaemon, BundleLink, BundleNotification, BundleReport,
@@ -22,6 +21,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::link::LinkKind;
 use dronex_core::domain::notification::{NotificationKind, Severity, Subject};
 use dronex_core::domain::thread::ItemKind;
+use serde_json::{Map, Value};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

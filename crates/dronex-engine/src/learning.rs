@@ -3,13 +3,13 @@
 //! hosted model kept it, or, when the operator agrees after a thumbs-down,
 //! with the conversation itself. Nothing is sent without an account.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::thread::{
     Rating as RatingDto, ThreadFeedbackParams, ThreadFeedbackResult,
 };
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_core::domain::thread::{Feedback, Item, ItemKind, Rating};
 use dronex_core::events::{Actor, Change};
+use serde_json::{Value, json};
 
 use crate::account::AccountAction;
 use crate::rpc::handlers::to_value;

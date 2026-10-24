@@ -9,10 +9,10 @@
 //! keep the crate and file; paths outside the workspace are cut to what
 //! names the dependency, or to the file name.
 
+use dronex_contracts::dto::analytics::{DaemonEvent, ErrorFrame, is_token};
 use tracing::field::{Field, Visit};
 use tracing::{Event, Level, Subscriber};
 use tracing_subscriber::layer::{Context, Layer};
-use dronex_contracts::dto::analytics::{DaemonEvent, ErrorFrame, is_token};
 
 const MAX_FRAMES: usize = 50;
 

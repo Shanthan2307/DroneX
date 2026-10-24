@@ -4,11 +4,11 @@
 //! `interface/check` to the daemon and pushes `interface/updated` to every
 //! client that reads, so open pages can offer a reload. Never journaled.
 
-use serde_json::Value;
 use dronex_contracts::dto::interface::InterfaceStatus;
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::{ClientRequest, ServerNotification};
 use dronex_core::domain::client::Capability;
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

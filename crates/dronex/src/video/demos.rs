@@ -1,5 +1,9 @@
 //! Lazy optional assets. Downloads stream to a temporary file, verify length and
 //! SHA-256, then atomically enter the cache. No media network request at startup.
+use dronex_contracts::dto::video::{
+    DemoAction, DemoDownload, DemoVideo, VideoDemosParams, VideoDemosResult,
+};
+use dronex_core::domain::video::VideoFileInput;
 use sha2::{Digest, Sha256};
 use std::{
     collections::{BTreeMap, BTreeSet},
@@ -8,10 +12,6 @@ use std::{
     sync::{Arc, Mutex},
     time::{Duration, Instant},
 };
-use dronex_contracts::dto::video::{
-    DemoAction, DemoDownload, DemoVideo, VideoDemosParams, VideoDemosResult,
-};
-use dronex_core::domain::video::VideoFileInput;
 
 const MAX_CATALOGUE: usize = 512 * 1024;
 const MAX_CLIP: u64 = 8 * 1024 * 1024 * 1024;

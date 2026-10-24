@@ -5,12 +5,6 @@ use std::sync::atomic::{AtomicBool, AtomicU64, Ordering};
 use std::sync::{Arc, Mutex, PoisonError};
 use std::task::{Context, Poll};
 
-use futures::channel::{mpsc, oneshot};
-use futures::future::{AbortHandle, Abortable, BoxFuture};
-use futures::stream::{BoxStream, FuturesUnordered};
-use futures::{FutureExt, StreamExt};
-use serde::{Deserialize, Serialize};
-use serde_json::{Value, json};
 use dronex_agent::conversation::{self, Entry};
 use dronex_agent::provider::openai;
 use dronex_agent::{
@@ -24,6 +18,12 @@ use dronex_core::policy::admission::Trust;
 use dronex_engine::agent::ToolOutcome;
 use dronex_engine::runtime::{TurnRequest, TurnStats};
 use dronex_engine::{ConnectionId, Engine};
+use futures::channel::{mpsc, oneshot};
+use futures::future::{AbortHandle, Abortable, BoxFuture};
+use futures::stream::{BoxStream, FuturesUnordered};
+use futures::{FutureExt, StreamExt};
+use serde::{Deserialize, Serialize};
+use serde_json::{Value, json};
 
 /// An account hint from one page. The HTTP transport checks its account id
 /// against the current server session before every inference request.

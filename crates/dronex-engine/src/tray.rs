@@ -8,7 +8,6 @@
 
 use std::collections::BTreeMap;
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::app::AppOpenResult;
 use dronex_contracts::dto::settings::LoginItemState;
 use dronex_contracts::dto::tray::{
@@ -25,6 +24,7 @@ use dronex_core::domain::notification::{
 use dronex_core::domain::settings::LaunchAction;
 use dronex_core::domain::vehicle::Presence;
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

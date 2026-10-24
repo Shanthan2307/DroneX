@@ -11,9 +11,6 @@
 //! computer uses one once it is activated there, or all of them with
 //! `mirror-all`.
 
-use serde::{Deserialize, Serialize};
-use serde_json::Value;
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::sync::{
     LibraryVehicle as LibraryVehicleDto, SyncActivation, SyncStatus,
 };
@@ -23,6 +20,9 @@ use dronex_core::domain::client::Capability;
 use dronex_core::domain::sync::{Activation, LibraryVehicle, SyncState};
 use dronex_core::domain::vehicle::{Presence, Vehicle};
 use dronex_core::events::{Actor, Change, Event};
+use serde::{Deserialize, Serialize};
+use serde_json::Value;
+use sha2::{Digest, Sha256};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

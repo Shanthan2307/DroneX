@@ -21,9 +21,9 @@ use std::fs::File;
 use std::io::{Read, Write};
 use std::path::{Component, Path, PathBuf};
 
+use dronex_contracts::dto::interface::{InterfaceEntry, MAX_ARCHIVE_BYTES};
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
-use dronex_contracts::dto::interface::{InterfaceEntry, MAX_ARCHIVE_BYTES};
 
 /// The most an archive may unpack to, against a compression bomb.
 const MAX_UNPACKED_BYTES: u64 = 1024 * 1024 * 1024;

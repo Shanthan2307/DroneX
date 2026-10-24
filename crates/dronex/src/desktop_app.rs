@@ -9,9 +9,9 @@ use std::path::{Path, PathBuf};
 use std::process::{Child, Command, Stdio};
 use std::sync::{Arc, Mutex, PoisonError};
 
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::app::{DesktopAppState, DesktopAppStatus};
 use dronex_contracts::dto::release::{DesktopAppArtifact, ReleaseManifest};
+use sha2::{Digest, Sha256};
 
 /// The largest archive accepted, whatever the manifest says.
 const MAX_ARCHIVE: u64 = 1 << 30;

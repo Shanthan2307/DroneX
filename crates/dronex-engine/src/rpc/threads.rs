@@ -1,6 +1,5 @@
 //! Threads and the agent: create, send, update, cancel.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::thread::{
     AgentConfig, BulkAction, DeleteParams, Item as ItemDto, Thread as ThreadDto, ThreadBulkParams,
     ThreadBulkResult, ThreadCreateParams, ThreadSendParams, ThreadUpdateParams,
@@ -11,6 +10,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::thread::{self, ItemKind, ItemStatus, Thread};
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use super::handlers::to_value;
 use crate::runtime::TurnRequest;

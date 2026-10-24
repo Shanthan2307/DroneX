@@ -1,7 +1,6 @@
 //! Links and vehicles: add, change, turn off and remove links; list, get,
 //! save and dismiss vehicles (ADR-0004).
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::initialize::RunsIn;
 use dronex_contracts::dto::link::{
     IdParams, Link as LinkDto, LinkAddParams, LinkListResult, LinkUpdateParams, SerialListResult,
@@ -16,6 +15,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::link::{Link, LinkKind, LinkStatus};
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use super::handlers::to_value;
 use crate::{ConnectionId, Engine};

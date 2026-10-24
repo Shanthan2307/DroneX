@@ -18,7 +18,6 @@
 
 use std::collections::VecDeque;
 
-use serde_json::Value;
 use dronex_contracts::dto::command::Receipt as ReceiptDto;
 use dronex_contracts::dto::edge::{Lease, LeaseParams};
 use dronex_contracts::errors::{ApiError, ErrorKind};
@@ -29,6 +28,7 @@ use dronex_core::domain::notification::{
     Action, NotificationAction, NotificationKind, Severity, Subject,
 };
 use dronex_core::policy::admission::Trust;
+use serde_json::Value;
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

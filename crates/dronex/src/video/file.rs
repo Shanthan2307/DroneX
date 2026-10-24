@@ -1,6 +1,8 @@
 //! File cameras use the packaged, network-disabled helper and ordinary video hub.
 use super::{capture, hub::Hub, listener};
 use crate::daemon::engine_task::EngineHandle;
+use dronex_core::domain::video::VideoFileInput;
+use dronex_media::source::Source;
 use std::{
     path::Path,
     process::Stdio,
@@ -8,8 +10,6 @@ use std::{
     time::{Duration, Instant},
 };
 use tokio::io::AsyncReadExt;
-use dronex_core::domain::video::VideoFileInput;
-use dronex_media::source::Source;
 
 pub fn check(path: &str) -> Result<(), String> {
     capture::program()?;

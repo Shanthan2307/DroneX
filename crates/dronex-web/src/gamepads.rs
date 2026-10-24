@@ -8,10 +8,10 @@
 
 use std::collections::BTreeMap;
 
-use serde::Deserialize;
 use dronex_contracts::dto::analytics::ControllerInterruptionReason;
 use dronex_core::domain::controller::{GamepadAxis, GamepadButton};
 use dronex_engine::controller_input::InputEvent;
+use serde::Deserialize;
 
 /// The notification a page sends with its pads.
 pub const METHOD: &str = "browser/gamepads";

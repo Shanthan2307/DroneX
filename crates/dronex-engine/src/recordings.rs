@@ -2,7 +2,6 @@
 //! policy and by hand, the recordings as entities, recovery after a crash,
 //! and playback tokens. The daemon writes the files.
 
-use serde_json::Value;
 use dronex_contracts::dto::Empty;
 use dronex_contracts::dto::state::{EntityChange, EntityType};
 use dronex_contracts::dto::video::{
@@ -14,6 +13,7 @@ use dronex_core::domain::video::{
     RecordPolicy, RecordingState, RecordingTrigger, VideoRecording, VideoSource, VideoState,
 };
 use dronex_core::events::{Actor, Change};
+use serde_json::Value;
 
 use dronex_core::domain::notification::{NotificationKind, Severity, Subject};
 

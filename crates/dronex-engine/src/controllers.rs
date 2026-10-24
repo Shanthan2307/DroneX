@@ -20,7 +20,6 @@
 
 use std::collections::{BTreeMap, BTreeSet};
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::command::CommandSendParams;
 use dronex_contracts::dto::controller::{
     ClientSelectParams, Controller as ControllerDto, ControllerClaimParams,
@@ -42,6 +41,7 @@ use dronex_core::domain::notification::{
 };
 use dronex_core::events::{Actor, Change};
 use dronex_core::policy::admission::Trust;
+use serde_json::{Value, json};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

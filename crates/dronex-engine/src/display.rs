@@ -1,12 +1,12 @@
 //! On-demand display transfer between connected UIs. Nothing is journaled.
 use std::collections::BTreeMap;
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::client::{
     DisplayClient, DisplayClientsResult, DisplayRequested, DisplaySnapshot,
 };
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::{ClientRequest, ServerNotification};
+use serde_json::{Value, json};
 
 use crate::rpc::{handlers::to_value, router};
 use crate::{ConnectionId, Engine};

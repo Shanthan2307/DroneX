@@ -5,13 +5,13 @@
 
 use std::collections::BTreeMap;
 
-use serde_json::{Map, Value};
 use dronex_core::domain::command::Command;
 use dronex_core::domain::modes::Family;
 use dronex_core::domain::practice::{Attempt, AttemptState, Exercise};
 use dronex_core::domain::telemetry::AltitudeFrame;
 use dronex_engine::practice::exercise;
 use dronex_engine::practice::judge::{self, Sample, Verdict, View};
+use serde_json::{Map, Value};
 
 /// The track keeps a point at most this often, as the engine does.
 const SAMPLE_EVERY_US: u64 = 1_000_000;
@@ -366,9 +366,9 @@ pub fn print(exercise_id: &str, replayed: &Replayed) {
 
 #[cfg(test)]
 mod tests {
-    use serde_json::json;
     use dronex_core::domain::practice::Offset;
     use dronex_engine::practice::judge::{Verdict, place};
+    use serde_json::json;
 
     use super::*;
 

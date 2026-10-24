@@ -3,7 +3,6 @@
 //! guests watch through each comes from the relay's `edge/demand`.
 //! Turning off "Let my account watch this computer" ends them all (W9).
 
-use serde_json::Value;
 use dronex_contracts::dto::edge::{
     EdgeState, VehicleWatching, WatchLinkCreateResult, WatchLinkListResult, WatchLinkStatus,
     WatchViewers, WatchViewersResult,
@@ -12,6 +11,7 @@ use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::{ClientRequest, ServerNotification};
 use dronex_core::domain::client::Capability;
 use dronex_core::events::{Actor, Change};
+use serde_json::Value;
 
 use crate::account::AccountAction;
 use crate::rpc::handlers::to_value;

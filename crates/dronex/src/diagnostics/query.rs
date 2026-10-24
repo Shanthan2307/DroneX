@@ -1,6 +1,6 @@
 //! Query-bound cursors freeze the default time window across pages.
-use serde::Serialize;
 use dronex_contracts::errors::{ApiError, ErrorKind};
+use serde::Serialize;
 pub fn limit(value: Option<u32>) -> Result<usize, ApiError> {
     dronex_engine::diagnostics::page_size(value)
 }

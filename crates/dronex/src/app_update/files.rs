@@ -12,8 +12,8 @@ use std::io::{Read, Write};
 use std::os::unix::fs::PermissionsExt;
 use std::path::{Path, PathBuf};
 
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::release::{BundleEntry, BundleFiles, ReleaseArtifact};
+use sha2::{Digest, Sha256};
 
 /// The most a list may weigh; the Mac app's is about 150 kB.
 pub(super) const MAX_LIST: u64 = 16 << 20;

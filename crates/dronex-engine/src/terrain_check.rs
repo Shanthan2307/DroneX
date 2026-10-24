@@ -14,7 +14,6 @@
 
 use std::collections::BTreeMap;
 
-use serde_json::Value;
 use dronex_contracts::dto::terrain::{
     TerrainCheckParams, TerrainCheckPoint, TerrainCheckResult, TerrainStatusParams,
     TerrainStatusResult, TerrainVerdict,
@@ -27,6 +26,7 @@ use dronex_core::domain::parameter::parameter_id;
 use dronex_terrain::grid;
 use dronex_terrain::lookup::{Ground, nearest_metre};
 use dronex_terrain::{Dataset, Unavailable};
+use serde_json::Value;
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

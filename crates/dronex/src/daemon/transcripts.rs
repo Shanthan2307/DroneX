@@ -13,9 +13,9 @@
 
 use std::path::PathBuf;
 
+use dronex_agent::Wire;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
-use dronex_agent::Wire;
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

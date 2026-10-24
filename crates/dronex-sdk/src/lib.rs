@@ -42,8 +42,6 @@
 use base64::Engine as _;
 use serde_json::{Map, Value};
 
-#[cfg(target_arch = "wasm32")]
-pub use extism_pdk;
 pub use dronex_contracts::dto::command::{Command, Risk};
 pub use dronex_contracts::dto::notification::Severity;
 pub use dronex_contracts::dto::plugin::{
@@ -52,6 +50,8 @@ pub use dronex_contracts::dto::plugin::{
     Tone, Widget,
 };
 pub use dronex_contracts::dto::telemetry::Unit;
+#[cfg(target_arch = "wasm32")]
+pub use extism_pdk;
 
 /// A MAVLink message of the ArduPilot dialect as a type (X3).
 pub trait Message: serde::Serialize + serde::de::DeserializeOwned {

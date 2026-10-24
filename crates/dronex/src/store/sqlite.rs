@@ -4,10 +4,10 @@
 
 use std::path::Path;
 
-use rusqlite::{Connection, OptionalExtension, params};
 use dronex_core::events::{Change, Event};
 use dronex_engine::pairing::Session;
 use dronex_engine::state::State;
+use rusqlite::{Connection, OptionalExtension, params};
 
 /// Every migration, in order. Append only; never edit one that has shipped.
 const MIGRATIONS: &[(&str, &str)] = &[

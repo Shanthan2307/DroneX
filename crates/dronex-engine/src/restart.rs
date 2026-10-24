@@ -7,7 +7,6 @@
 //! waiting for their vehicle end as `interrupted`, transfers in flight are
 //! marked failed, and controllers are released and ask to be claimed again.
 
-use serde_json::{Value, json};
 use dronex_contracts::convert::settings::settings_dto;
 use dronex_contracts::dto::inspect::{MavlinkHistoryParams, MavlinkInspectParams};
 use dronex_contracts::dto::settings::{
@@ -25,6 +24,7 @@ use dronex_core::domain::settings::{ClosePolicy, Settings, StorageCategory};
 use dronex_core::domain::vehicle::Presence;
 use dronex_core::events::{Actor, Change};
 use dronex_core::policy::admission::Trust;
+use serde_json::{Value, json};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

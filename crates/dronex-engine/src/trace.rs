@@ -1,8 +1,8 @@
 //! The inspector tap: builds a `TraceFrame` for every frame in and out, with
 //! sensitive values redacted before they leave the engine (ADR-0001).
 
-use serde_json::{Map, Value};
 use dronex_contracts::dto::trace::{FrameKind, RequestId};
+use serde_json::{Map, Value};
 
 /// Object keys whose string values are never shown by the tap.
 const SENSITIVE_KEYS: [&str; 11] = [

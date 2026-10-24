@@ -3,15 +3,15 @@
 //! last 500 lines, without colour codes, and scrubs them when a report takes
 //! them.
 
+use dronex_contracts::dto::diagnostics::{
+    DaemonLogEntry, DaemonLogsParams, DaemonLogsResult, DiagnosticCoverage,
+};
+use dronex_engine::runtime::Clock as _;
 use std::collections::VecDeque;
 use std::io::Write;
 use std::sync::atomic::{AtomicBool, AtomicU64, Ordering};
 use std::sync::{Mutex, OnceLock, mpsc};
 use std::time::Duration;
-use dronex_contracts::dto::diagnostics::{
-    DaemonLogEntry, DaemonLogsParams, DaemonLogsResult, DiagnosticCoverage,
-};
-use dronex_engine::runtime::Clock as _;
 
 use tracing_subscriber::fmt::MakeWriter;
 

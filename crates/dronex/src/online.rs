@@ -65,7 +65,9 @@ mod tests {
         let access = explain(
             302,
             &api,
-            Some("https://orth.cloudflareaccess.com/cdn-cgi/access/login/api-staging.dronex.example"),
+            Some(
+                "https://orth.cloudflareaccess.com/cdn-cgi/access/login/api-staging.dronex.example",
+            ),
         );
         assert!(access.unwrap().contains("Cloudflare Access"));
         let portal = explain(302, &api, Some("http://hotel-wifi.example/login"));

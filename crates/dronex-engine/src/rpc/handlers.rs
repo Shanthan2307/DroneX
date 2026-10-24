@@ -1,6 +1,5 @@
 //! One function per method. Thin: checks, then a call into state.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::initialize::{
     Capability, ClientKind, InitializeParams, InitializeResult,
 };
@@ -19,6 +18,7 @@ use dronex_contracts::version::{MIN_CLIENT_VERSION, PROTOCOL_VERSION};
 use dronex_core::domain::operator::{self, Operator};
 use dronex_core::events::Change;
 use dronex_core::policy::admission;
+use serde_json::{Value, json};
 
 use crate::{Admitted, ConnectionId, Engine, version};
 

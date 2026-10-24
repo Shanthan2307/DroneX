@@ -2,7 +2,6 @@
 //! `analytics/track`, the daemon's own, and the usage analytics switch. The
 //! switch is checked here, so nothing reaches the port while it is off.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::analytics::{
     AnalyticsAliasParams, AnalyticsEvent, AnalyticsPerformanceParams, AppEvent, CommandName,
     CommandOutcome, DaemonEvent, EngagementTask, EngagementUsage, ErrorFrame, LinkType,
@@ -16,6 +15,7 @@ use dronex_core::domain::link::LinkKind;
 use dronex_core::domain::settings::Settings;
 use dronex_core::domain::thread::ItemKind;
 use dronex_core::events::{Actor, Change};
+use serde_json::{Value, json};
 
 use crate::runtime::AnalyticsPort;
 use crate::{ConnectionId, Engine};
@@ -465,8 +465,8 @@ mod tests {
 
     #[test]
     fn performance_context_is_optional_bounded_and_survives_event_serialization() {
-        use serde_json::json;
         use dronex_contracts::dto::analytics::{AnalyticsPerformanceParams, AppEvent};
+        use serde_json::json;
 
         let base = json!({
             "window_ms": 30000, "long_tasks": 0, "blocking_ms": 0, "max_task_ms": 0,
@@ -524,8 +524,8 @@ mod tests {
 
     #[test]
     fn interruption_diagnostics_validate_counts_timings_and_the_reason_vocabulary() {
-        use serde_json::json;
         use dronex_contracts::dto::analytics::AppEvent;
+        use serde_json::json;
         let request: serde_json::Value = serde_json::from_str(include_str!(
             "../../dronex-contracts/fixtures/analytics_track.request.controller-interruption.json"
         ))

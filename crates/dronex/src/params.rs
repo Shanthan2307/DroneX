@@ -12,15 +12,15 @@ use std::io::Write as _;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 
-use flate2::Compression;
-use flate2::write::GzEncoder;
-use serde::{Deserialize, Serialize};
 use dronex_contracts::dto::param_definitions::CatalogueSet;
 use dronex_core::domain::param_definitions::DefinitionSet;
 use dronex_engine::param_definitions::files::{
     DEFAULT_URL, MAX_SET_BYTES, NO_CATALOGUE_KEY, gunzip_set, read_set, sha256, usable, verify,
 };
 use dronex_engine::param_definitions::{DefinitionsArrived, DefinitionsOrder, DefinitionsPort};
+use flate2::Compression;
+use flate2::write::GzEncoder;
+use serde::{Deserialize, Serialize};
 
 use crate::daemon::engine_task::EngineHandle;
 

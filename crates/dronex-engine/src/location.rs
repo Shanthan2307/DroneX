@@ -6,7 +6,6 @@
 
 use std::collections::BTreeSet;
 
-use serde_json::Value;
 use dronex_contracts::dto::Empty;
 use dronex_contracts::dto::location::{
     LocationFix, LocationState, LocationStatus, TrayLocationParams, TrayLocationWanted,
@@ -14,6 +13,7 @@ use dronex_contracts::dto::location::{
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::{ClientRequest, ServerNotification};
 use dronex_core::domain::client::Capability;
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

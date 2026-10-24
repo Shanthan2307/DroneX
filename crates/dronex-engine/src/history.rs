@@ -2,7 +2,6 @@
 //! earlier versions and marked rather than removed when deleted, and events
 //! DroneX records by itself. Called history, never log.
 
-use serde_json::Value;
 use dronex_contracts::dto::history::{
     AddNoteParams, EditNoteParams, HistoryEntry as HistoryEntryDto, VehicleHistoryParams,
     VehicleHistoryResult,
@@ -17,6 +16,7 @@ use dronex_core::domain::history::{
 };
 use dronex_core::domain::vehicle::Vehicle;
 use dronex_core::events::{Actor, Change};
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine, upsert};

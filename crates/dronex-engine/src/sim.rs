@@ -3,7 +3,6 @@
 //! WebAssembly build (S20). A simulated vehicle is its link: starting one
 //! adds the link, and stopping it removes the link.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::initialize::RunsIn;
 use dronex_contracts::dto::link::{IdParams, Link as LinkDto, LinkAddParams};
 use dronex_contracts::dto::sim::{
@@ -14,6 +13,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
 use dronex_core::domain::link::{JET_FRAME, Link, LinkKind, LinkStatus, SimAutopilot, SimVehicle};
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

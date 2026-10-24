@@ -8,9 +8,9 @@
 
 use std::path::Path;
 
+use dronex_agent::tools::{Tool, tools};
 use serde_json::{Value, json};
 use tokio::io::{AsyncBufReadExt, AsyncWriteExt, BufReader};
-use dronex_agent::tools::{Tool, tools};
 
 use crate::cli::client::{CliError, LocalClient};
 

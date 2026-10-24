@@ -2,9 +2,9 @@
 //! Metadata is optional: unknown interfaces keep their system identifier in
 //! the UI. Never infer a VPN provider from its IP range or tunnel number.
 
+use dronex_contracts::dto::network::NetworkAddress;
 use std::collections::BTreeMap;
 use std::time::{Duration, Instant};
-use dronex_contracts::dto::network::NetworkAddress;
 
 #[derive(Default)]
 pub(super) struct Names {

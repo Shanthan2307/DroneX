@@ -13,7 +13,6 @@ use std::sync::Arc;
 use std::sync::atomic::{AtomicU8, Ordering};
 use std::time::Duration;
 
-use tokio::sync::mpsc;
 use dronex_contracts::dto::inspect::InspectDirection;
 use dronex_core::domain::link::{Link, LinkKind, LinkPolicy, LinkStatus};
 use dronex_engine::plane as glue;
@@ -22,6 +21,7 @@ use dronex_mavlink::framing::{Reassembler, header, split};
 use dronex_mavlink::links::{self, LinkEvent, LinkHandle, Outgoing};
 use dronex_mavlink::router::{LoopConfig, Role, Routed, Router};
 use dronex_mavlink::session::{Config, Effect, Session};
+use tokio::sync::mpsc;
 
 use super::controllers::{Controls, InputEvent, Report};
 use super::engine_task::EngineHandle;

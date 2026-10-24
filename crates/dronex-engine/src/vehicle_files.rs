@@ -11,7 +11,6 @@
 use std::collections::{BTreeMap, VecDeque};
 
 use base64::Engine as _;
-use serde_json::{Value, json};
 use dronex_contracts::dto::Empty;
 use dronex_contracts::dto::files::{
     FileEntry, FileSaveResult, FileTransfer as FileTransferDto, FileTransferParams,
@@ -25,6 +24,7 @@ use dronex_core::domain::client::Capability;
 use dronex_core::domain::files::{FileTransfer, TransferDirection, TransferState};
 use dronex_core::domain::vehicle::Presence;
 use dronex_core::events::{Actor, Change};
+use serde_json::{Value, json};
 
 use crate::rpc::handlers::to_value;
 use crate::runtime::{FileOp, TransferOrder};

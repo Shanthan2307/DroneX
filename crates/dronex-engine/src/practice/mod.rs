@@ -11,7 +11,6 @@ pub mod judge;
 
 use std::collections::BTreeMap;
 
-use serde_json::Value;
 use dronex_contracts::dto::practice::{
     PracticeAnswerResult, PracticeAttempt, PracticeBest, PracticeExercise, PracticeListResult,
     PracticeQuestion, PracticeStatusResult, PracticeStep,
@@ -27,6 +26,7 @@ use dronex_core::domain::practice::{Attempt, AttemptState, Best, Exercise, Start
 use dronex_core::domain::telemetry::AltitudeFrame;
 use dronex_core::domain::vehicle::Presence;
 use dronex_core::events::{Actor, Change};
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::runtime::CommandOrder;

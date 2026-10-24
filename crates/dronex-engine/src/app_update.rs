@@ -2,7 +2,6 @@
 //! this engine alone decides when the current state permits a handoff.
 use std::collections::BTreeSet;
 
-use serde_json::Value;
 use dronex_contracts::dto::tray::TrayAlert;
 use dronex_contracts::dto::update::{AppUpdateStatus, UpdatePhase};
 use dronex_contracts::errors::{ApiError, ErrorKind};
@@ -11,6 +10,7 @@ use dronex_core::domain::client::{Capability, ClientKind};
 use dronex_core::domain::command::ReceiptStatus;
 use dronex_core::domain::settings::LaunchAction;
 use dronex_core::domain::vehicle::Presence;
+use serde_json::Value;
 
 use crate::{ConnectionId, Engine, rpc::handlers::to_value};
 

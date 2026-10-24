@@ -4,13 +4,13 @@
 
 use std::collections::BTreeMap;
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::search::{
     Coordinates, PlaceLocateParams, PlaceLocateResult, PlaceSearchParams, PlaceSearchResult,
 };
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::client::Capability;
+use serde_json::{Value, json};
 
 use crate::{ConnectionId, Engine};
 

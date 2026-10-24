@@ -5,7 +5,6 @@
 
 use std::collections::BTreeMap;
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::Empty;
 use dronex_contracts::dto::find::{Find as FindDto, FindResult, FindStartParams};
 use dronex_contracts::errors::{ApiError, ErrorKind};
@@ -16,6 +15,7 @@ use dronex_core::domain::link::{LinkKind, UsbId};
 use dronex_core::domain::notification::{
     Action, NotificationAction, NotificationKind, Severity, Subject,
 };
+use serde_json::{Value, json};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

@@ -27,14 +27,14 @@ use axum::http::{HeaderMap, HeaderValue, Method, StatusCode, header};
 use axum::middleware::{self, Next};
 use axum::response::{IntoResponse, Response};
 use axum::routing::{get, post};
+use dronex_contracts::dto::trace::Transport;
+use dronex_core::policy::admission::Trust;
+use dronex_engine::PairingState;
 use futures::{SinkExt, StreamExt};
 use serde::Deserialize;
 use serde_json::json;
 use tokio_tungstenite::tungstenite::client::IntoClientRequest;
 use tower_http::services::ServeFile;
-use dronex_contracts::dto::trace::Transport;
-use dronex_core::policy::admission::Trust;
-use dronex_engine::PairingState;
 
 use crate::daemon::engine_task::EngineHandle;
 use crate::interface::Interfaces;
@@ -43,7 +43,10 @@ pub const SESSION_COOKIE: &str = "dronex_session";
 
 /// DroneX on the web, production's and staging's: other sites that may pair
 /// and connect with a token.
-pub const HOSTED_ORIGINS: [&str; 2] = ["https://app.dronex.example", "https://app-staging.dronex.example"];
+pub const HOSTED_ORIGINS: [&str; 2] = [
+    "https://app.dronex.example",
+    "https://app-staging.dronex.example",
+];
 
 /// The subprotocol every token connection speaks, echoed back.
 const PROTOCOL: &str = "dronex";

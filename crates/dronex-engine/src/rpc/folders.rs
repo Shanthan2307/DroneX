@@ -2,7 +2,6 @@
 //! (ADR-0009). Deleting one is a tombstone; its threads and folders move up
 //! to its parent, so nothing is lost.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::thread::{
     DeleteParams, Folder as FolderDto, FolderCreateParams, FolderUpdateParams,
 };
@@ -11,6 +10,7 @@ use dronex_contracts::rpc::ClientRequest;
 use dronex_core::domain::thread::Folder;
 use dronex_core::events::Change;
 use dronex_core::order;
+use serde_json::{Value, json};
 
 use super::handlers::to_value;
 use crate::{ConnectionId, Engine};

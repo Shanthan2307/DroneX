@@ -84,7 +84,6 @@ mod watch_link;
 
 use std::collections::{BTreeMap, BTreeSet, HashMap};
 
-use serde_json::Value;
 use dronex_contracts::dto::initialize::DaemonCapabilities;
 use dronex_contracts::dto::link::Link as LinkDto;
 use dronex_contracts::dto::operator::Operator as OperatorDto;
@@ -97,6 +96,7 @@ use dronex_core::domain::client::{Capability, ClientKind};
 use dronex_core::domain::thread::{Item, ItemStatus};
 use dronex_core::events::{Actor, Change, Event};
 use dronex_core::policy::admission::Trust;
+use serde_json::Value;
 
 use crate::pairing::Sessions;
 pub use crate::pairing::{PairingState, Session};

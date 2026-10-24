@@ -4,7 +4,6 @@
 //! back its parameters and mission, flies to its height and restores its
 //! mode.
 
-use serde_json::{Value, json};
 use dronex_contracts::dto::link::{IdParams, LinkAddParams};
 use dronex_contracts::dto::sim::{
     SimSnapshot as SnapshotDto, SimSnapshotParams, SnapshotListResult, SnapshotRenameParams,
@@ -19,6 +18,7 @@ use dronex_core::domain::notification::{NotificationKind, Severity, Subject};
 use dronex_core::domain::snapshot::{Snapshot, SnapshotParameter};
 use dronex_core::domain::telemetry::AltitudeFrame;
 use dronex_core::events::Change;
+use serde_json::{Value, json};
 
 use crate::commands::Raise;
 use crate::rpc::handlers::to_value;

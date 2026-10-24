@@ -4,7 +4,6 @@
 //! deleting moves a plan to Deleted for 30 days.
 
 use crate::plan_checks::{Check, Severity};
-use serde_json::Value;
 use dronex_contracts::dto::link::IdParams;
 use dronex_contracts::dto::plan::{
     Plan as PlanDto, PlanCheck, PlanCheckResult, PlanCheckSeverity, PlanCreateParams,
@@ -23,6 +22,7 @@ use dronex_core::domain::plan::{
     PlanFrame, PlanRevision, PlanVehicleType,
 };
 use dronex_core::events::Change;
+use serde_json::Value;
 
 use crate::plan_files::{self, ExportFormat, PlanFile};
 use crate::rpc::handlers::to_value;

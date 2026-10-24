@@ -5,7 +5,6 @@
 
 use std::collections::{BTreeMap, BTreeSet};
 
-use serde_json::Value;
 use dronex_contracts::dto::param_definitions::{
     DescribedBy, GroupCount, ParamBrief, ParamDetail, ParamDiffParams, ParamDiffResult,
     ParamDifference, ParamGetParams, ParamGetResult, ParamListParams, ParamListResult,
@@ -17,6 +16,7 @@ use dronex_core::domain::client::Capability;
 use dronex_core::domain::param_definitions::{DefinitionSet, ParamDefinition, UserLevel};
 use dronex_core::domain::parameter::same_value;
 use dronex_core::domain::vehicle::Vehicle;
+use serde_json::Value;
 
 use crate::rpc::handlers::to_value;
 use crate::{ConnectionId, Engine};

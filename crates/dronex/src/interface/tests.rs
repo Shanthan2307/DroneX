@@ -4,8 +4,8 @@ use std::collections::BTreeMap;
 use std::sync::Arc;
 
 use axum::http::Request as HttpRequest;
-use sha2::{Digest, Sha256};
 use dronex_contracts::dto::interface::{InterfaceArchive, InterfaceEntry, InterfaceManifest};
+use sha2::{Digest, Sha256};
 
 use super::store::{InstallError, Store, hex};
 use super::*;

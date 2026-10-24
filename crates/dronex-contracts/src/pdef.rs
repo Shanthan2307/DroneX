@@ -10,12 +10,12 @@
 
 use std::collections::BTreeMap;
 
-use quick_xml::Reader;
-use quick_xml::events::{BytesStart, Event};
-use serde_json::Value;
 use dronex_core::domain::param_definitions::{
     BitName, DefinitionSet, Firmware, ParamDefinition, ParamRange, UserLevel, ValueName,
 };
+use quick_xml::Reader;
+use quick_xml::events::{BytesStart, Event};
+use serde_json::Value;
 
 /// What a file held: ArduPilot's documentation, or one of our own sets.
 #[derive(Debug)]

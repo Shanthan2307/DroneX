@@ -6,12 +6,12 @@
 use std::collections::BTreeMap;
 use std::time::Duration;
 
+use dronex_contracts::dto::edge::RemoteVehicle;
 use futures::{SinkExt, StreamExt};
 use serde_json::{Value, json};
 use tokio_tungstenite::tungstenite::Message;
 use tokio_tungstenite::tungstenite::client::IntoClientRequest;
 use tokio_tungstenite::tungstenite::http::{HeaderValue, header};
-use dronex_contracts::dto::edge::RemoteVehicle;
 
 use crate::adapters::credentials::FileCredentials;
 use crate::edge::now_ms;

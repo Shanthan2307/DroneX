@@ -3,9 +3,9 @@
 //! variant's doc comment and its parameters are the variant's params schema.
 //! Only the methods in [`AGENT_METHODS`] are offered.
 
+use dronex_contracts::rpc::ClientRequest;
 use schemars::generate::SchemaSettings;
 use serde_json::{Value, json};
-use dronex_contracts::rpc::ClientRequest;
 
 /// The API methods the agent may call as tools. Adding one here is the
 /// whole change; what it may do is still decided by its capabilities.

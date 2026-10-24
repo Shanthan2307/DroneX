@@ -23,12 +23,12 @@ use std::path::{Path, PathBuf};
 use std::process::{Child, Command, Stdio};
 use std::time::Duration;
 
-use serde::{Deserialize, Serialize};
-use sha2::{Digest, Sha256};
-use tokio::io::AsyncWriteExt;
 use dronex_contracts::dto::release::ReleaseArtifact;
 use dronex_contracts::dto::update::{AppUpdateStatus, UpdatePhase};
 use dronex_core::domain::settings::LaunchAction;
+use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256};
+use tokio::io::AsyncWriteExt;
 
 use crate::daemon::engine_task::EngineHandle;
 

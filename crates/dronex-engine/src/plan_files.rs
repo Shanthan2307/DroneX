@@ -5,11 +5,11 @@
 //! contents, not their names. Nothing that could not be read is dropped
 //! silently: each is a line in [`Imported::skipped`].
 
-use serde_json::{Value, json};
 use dronex_core::domain::plan::{
     Fence, FenceCircle, FencePolygon, LatLon, PatternShape, PlanAutopilot, PlanBody, PlanFrame,
     PlanItem, PlanPattern, PlanVehicleType, PlannedHome, RallyPoint, command_has_position,
 };
+use serde_json::{Value, json};
 
 /// One file as given: its name (for the plan's name and messages) and text.
 #[derive(Clone, Debug)]

@@ -106,7 +106,7 @@
     },
     {
       "path": "crates/dronex-agent/src/tools.rs",
-      "sha256": "88e9027de64fecfad6963a54dab8acda973f684a69cb3a3f3f9da62e0f9f4e87",
+      "sha256": "bd4e891a0f4953248b0cbd5d1f261c531107d54e3ce229f20aae4752c8843296",
       "executable": false
     },
     {
@@ -3476,7 +3476,7 @@
     },
     {
       "path": "crates/dronex-contracts/src/convert/thread.rs",
-      "sha256": "3321c09bc5d110ee1c75026d1aa0df917b573e0a6bce1dce5f28a0a43e794956",
+      "sha256": "2671d559986400635f6bc6578cf469226ca28add03cf185a3360845da17a72d8",
       "executable": false
     },
     {
@@ -3736,7 +3736,7 @@
     },
     {
       "path": "crates/dronex-contracts/src/pdef.rs",
-      "sha256": "5e4505c2cdf77953960b2ee3b06419c8e150947aeac41bb4972eda00a7033942",
+      "sha256": "e898b42c938b4777d7d6b71980a73207616d908b64c596156a998c5862b5ae06",
       "executable": false
     },
     {
@@ -3756,7 +3756,7 @@
     },
     {
       "path": "crates/dronex-contracts/tests/fixtures.rs",
-      "sha256": "d9c1214c475a8080af505def46ed1307aa16a14fec504e3a761a669f7d0b99a1",
+      "sha256": "73505b88e5124857abe0734f7d9ab1f94df7b3144722aab6361943f6a6634aae",
       "executable": false
     },
     {
@@ -3946,7 +3946,7 @@
     },
     {
       "path": "crates/dronex-engine/src/account.rs",
-      "sha256": "db234d2e9868b195a9011a6f8836eac9ea6971c29d5526fc39201ca91e32d848",
+      "sha256": "48237a5808bd8ccef35bede22a3d9b5e3cbce60b7ab422710d81b94138cdedae",
       "executable": false
     },
     {
@@ -3956,27 +3956,27 @@
     },
     {
       "path": "crates/dronex-engine/src/analytics.rs",
-      "sha256": "50d2639bc7874c71b15302dd9f2583aff63b25c27494a6f87ca7490b23bd9dcf",
+      "sha256": "4ab74ee92295ef2ec5c926c5607f07861f5dd45e1d59ff71d998a190ce929a9b",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/app.rs",
-      "sha256": "82769b9ad0fd033b21400a6cdba57819883027ab1cfdd1ea7b6e71ae1bf220b3",
+      "sha256": "8572fe171f1eef49e44236b97608128a42acaa658032088d3fd11f41699cdfa7",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/app_update.rs",
-      "sha256": "add7df20c5c1ea5d0c2f1aaff7540b88cbda39a37b6fe9c8ef7a9743822669b3",
+      "sha256": "3b4728b0d6b91d6eb2171baafe9ec2c272990041e26f9fc1fdb460f80d2e5026",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/approvals.rs",
-      "sha256": "ed54f14b1a6deb5a352c7b13cde4fe539bc321023fa440e822e5a0bd3e26761a",
+      "sha256": "3cd10600867c0989310a3d48c86f64d7cc0c7fd6170df9d14527f41a3f375fa7",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/commands.rs",
-      "sha256": "447bb38822e8a2f109bce5df99cb124ef659b9b402e6143e69eb0b56919ff4cd",
+      "sha256": "401b47f85761c373d724411a69c8dfa33985f4a131f526a36e1e46ba9c1befcb",
       "executable": false
     },
     {
@@ -3986,32 +3986,32 @@
     },
     {
       "path": "crates/dronex-engine/src/controllers.rs",
-      "sha256": "310d285c14fe4676271a9b01212a727196a23c51c0e50a54a545d2f2417a47ae",
+      "sha256": "88501c11e00d3d826419988f91dc7b1ecc8c8a60e175d4274579daacac9b7172",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/diagnostics.rs",
-      "sha256": "2ce06d3564dafb00bc2e411e1f809df113b7b2ddc5363f98cd1980afff15ba3d",
+      "sha256": "9aef261e869247155d4d298dc91c88c3f9edeef04035e19eb902ea5a021b2ee5",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/display.rs",
-      "sha256": "7702557d19516989f982da8d7f70ca8138b2557ae6fa696ab52cff83f024ac98",
+      "sha256": "f1fc32af9444d0183da00d05fcbe303701f650f721b41e6a0597230a4c3bd678",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/edge.rs",
-      "sha256": "58cae7df85645c6aa4f5b5fe0a9349ac6524ca297ace2ddcf1039f35aceba0a7",
+      "sha256": "2f58f1645eded8b53a7002dbab24c19ba8693f5fa2456faa6520c15c16225f42",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/feedback.rs",
-      "sha256": "5ffe6d9a25665123fa249280a15bd145b98860dbcde7ce508d2eabda0a05e1a0",
+      "sha256": "b3ab9d5d11423886cef81feccc0b3d9c89f70c9f67abbd2fca127723db37bfb0",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/finds.rs",
-      "sha256": "15cdbe4e6729053636ca73c31d5098913fa31c5f7114eb3b96ed90432c6897d6",
+      "sha256": "7a739369b3fa8531e66c2a0e9213e0fa723c7c4bb5e2c78947e90adf99a5b7bd",
       "executable": false
     },
     {
@@ -4036,7 +4036,7 @@
     },
     {
       "path": "crates/dronex-engine/src/history.rs",
-      "sha256": "1f43ed98ae4f196c2cbe4b13a91a35a3b7fe3ca67eb9f4f8c6f57efce5511308",
+      "sha256": "8433a327ee8fbd58a7db9518c24a5b13d5178c27df5d2486a4c1239e38c29241",
       "executable": false
     },
     {
@@ -4046,12 +4046,12 @@
     },
     {
       "path": "crates/dronex-engine/src/import.rs",
-      "sha256": "3d09e9065740c67ccda5b089943613c100f071ac8504b4cc3ebb758d365071e2",
+      "sha256": "a8a3404d42d5664a307f2a4ed91cbdf55d26743733077d309d6b5775f205baa6",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/interface.rs",
-      "sha256": "498fd2abede8479ca9da3b22d6f8f5458b0f57462a19f95d486b6d02ba4c45db",
+      "sha256": "e3f4d7a90b2af9a7734db3cfd3014ff42dca477d3a24621a26777c3651e0581b",
       "executable": false
     },
     {
@@ -4066,27 +4066,27 @@
     },
     {
       "path": "crates/dronex-engine/src/learning.rs",
-      "sha256": "077ad6fea9b7fc602247d76036d4cfcf4ffcf4c71375ca01b90b480252c2a481",
+      "sha256": "227c76782bb6fa1a0ec6c250724305d40ee3b0c01745af4405cec370a539756a",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/lib.rs",
-      "sha256": "4f030174b21ce334337f823042e94b4c6d6ef8d8e7de63ca287c9bc8d102b2ac",
+      "sha256": "aa71b3f3331dc5afe4994981b3ec5b4f7f33c71950a9d6e7403c2de36296456c",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/location.rs",
-      "sha256": "c4c35b6b613d86d24a9862c42e87e60544254960f3def740ae9f11a3668426c3",
+      "sha256": "2c5da82999dbeb4b39491c640a51dc31b5d20e6181fbf013218de6e735fdf519",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/mavlink_inspect.rs",
-      "sha256": "20e0b69c380bbfb564199d14bff84d214b06533cda1cc71f2e526835ef01a361",
+      "sha256": "10cc7e18d972d065871d0a83764bce8fe64705f538e218fbf00c125dad179a89",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/messages.rs",
-      "sha256": "9812e05f8e65e9711301eeccb42c265163bb549c2a538718e7c3c50e8b4b1c98",
+      "sha256": "bd3a2f0ade7c28db9feed9f7d42f49e9929f4e46a3477cd7714112d1f2b781bf",
       "executable": false
     },
     {
@@ -4096,32 +4096,32 @@
     },
     {
       "path": "crates/dronex-engine/src/pairing.rs",
-      "sha256": "36454e469812db343c39172c6cdea1fd2cd21e90441319a6bbff021349a7ad0a",
+      "sha256": "a48032e88c8f26f5829c73f0707de63106421662da2f27378fd9f9529067028c",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/param_definitions/files.rs",
-      "sha256": "383c12fdc789adbcfc1dafcd310fe893fbb2aee41b2cbbfc7e13b620de1ed2c9",
+      "sha256": "d41d0b97b95b73c3803f71ee5a0d2c40bef2db6d95b418f9bafe015aa80337db",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/param_definitions/mod.rs",
-      "sha256": "b564227d530d66ecd59490f5e4c7305b5454050c3790901ca48ee1a9b8269ca3",
+      "sha256": "96033e68d32efee8bd8d10d4a262496b1bb9ac3441f422b55e85946b2198b5de",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/param_definitions/queries.rs",
-      "sha256": "21f491b9d38ccf5a6c692a5598c23a6f82d41b00081a4f6f54ec279dc0d631f8",
+      "sha256": "86e11e43da47467c4a05ef56ed345f6e054ea54d9594cd059ac8f92307b1ead2",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/photos.rs",
-      "sha256": "075715000920f5ecbe2255d67e8762f55995d1b1169cb11e04b3cf28fb9338d1",
+      "sha256": "1dc0821ee8e3dcefb6532dcd29497793c94c9639f74f97171fd4bb735fdc7e73",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/places.rs",
-      "sha256": "74b82b7698304c9da5358f88a2a9ee99c8806e3fe70f2a493c8f17806ccc60d3",
+      "sha256": "7cfc45a5255a59652674ea83802a7aa7154c64e0abc03324682d254b11245655",
       "executable": false
     },
     {
@@ -4136,7 +4136,7 @@
     },
     {
       "path": "crates/dronex-engine/src/plan_files.rs",
-      "sha256": "076cff3c212c950a22c70ba8e112a7cacdc5d0d918d57b48385e23f95c921fc7",
+      "sha256": "c4cab116afb7f43d3f507d31278c69bc6738ebfcae09e3a31a554a474c86c97b",
       "executable": false
     },
     {
@@ -4151,17 +4151,17 @@
     },
     {
       "path": "crates/dronex-engine/src/plans.rs",
-      "sha256": "0c6b621283cd87bb87b283d3f8b136f7e468c4786748af71abfe36a930b5ee20",
+      "sha256": "2fb5b940ff44ed0745ff5aa07bbbbcf7c33d256e3dc88ca0874161749609d439",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/plugin_sync.rs",
-      "sha256": "8d5bca655134008168acc4306860fa67c709de686fc7a3d80cbbcb633e3e0ef9",
+      "sha256": "86f9fb2b86d92e29fa29767b35343b89aa03e1427342f3b750cb476dc820ba0d",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/plugins.rs",
-      "sha256": "05b0c395d39a3338614995c8016f049a49563052fbac40bf5c7e096ce91487f9",
+      "sha256": "efc6583063c21c9b4be0ac817d1645ea73ee701c37e72642f0c326c10c3a6d82",
       "executable": false
     },
     {
@@ -4311,37 +4311,37 @@
     },
     {
       "path": "crates/dronex-engine/src/practice/mod.rs",
-      "sha256": "3f1d3d82ea3567cfff7484d4407a663a55067bd82ab3d8c8216f33cf5e48cf6f",
+      "sha256": "adca7e76be30b9309e0e133b550ce720a9cd46213025b5e0289406e63150d2da",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/recordings.rs",
-      "sha256": "f61e4d7af611f041372cefda158dc26ed585b255c2e298f51fe751f0af63a086",
+      "sha256": "dfc86abc4850b85900a737d0d65c1e8dccf453c352afdce21639ac61ba915113",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/remote.rs",
-      "sha256": "a4ec630c7d644b6fc426a757bd218ef3629f4f9707ade7da9d6ffe97d86421f2",
+      "sha256": "b4fb95c7b39f677fcd5f990ba4f01a0b16c86757a4226612db396603a62c43e8",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/remote_view.rs",
-      "sha256": "1b3fe3a0ed615b308b33617fd2c9ce4898ad22b28899edd718cf6c46435783ba",
+      "sha256": "82cf98b0a2aa2262b04fff540191ce08f37ffcbeedd2fd48918c5efd1630c685",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/restart.rs",
-      "sha256": "ceace697e42b4f1e582495a53211a6e8e6b70d5594eba1b62ab23f4e8ae5b02e",
+      "sha256": "d9e34ed1e01332d956e1327f9fe20a978c2a3ee313e577788eab08520f4b6bc5",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/rpc/folders.rs",
-      "sha256": "239de3221f894cf4b1114f664415b1a36a098c57b5db2c39d57644b175e65798",
+      "sha256": "0925777a450e42fafcc2ed6c7b973ebfcfc971cff3751d369f25fbd36866bce5",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/rpc/handlers.rs",
-      "sha256": "4212374c808fa9405ae859aac74fe5031c1364c540d2b81aeda63fca1f79d66c",
+      "sha256": "961614fcd8e4fd6d67910187cd63d30f971d44ec0d620923e25c8d7ddc5430c8",
       "executable": false
     },
     {
@@ -4351,17 +4351,17 @@
     },
     {
       "path": "crates/dronex-engine/src/rpc/router.rs",
-      "sha256": "99afd0efc4388eccfa777758992cdf6b6f6668c755c3e5575d8ff041b2176d7d",
+      "sha256": "9369fdf077c8f6809770fefa1ddfa656610926e35307903420ab77752b45cd9d",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/rpc/threads.rs",
-      "sha256": "6c611aef8fa0a8e529f4b8b86d6829ee2a79caa63e8b772955304d46ae31f7f1",
+      "sha256": "20e73f40f1f7ac57b5fcd39dcb2995d3fa8bd76d012caa26f5917ee994679685",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/rpc/vehicles.rs",
-      "sha256": "05c4ad937da378b69e64d7e26ec8ded58caee6d3e330f8b552e49a218703db13",
+      "sha256": "226d5443132b8c2923e7caa24b6ad16840adcf046926662868fff304576006a4",
       "executable": false
     },
     {
@@ -4376,22 +4376,22 @@
     },
     {
       "path": "crates/dronex-engine/src/search.rs",
-      "sha256": "720663a82e5e4e27eea154722801c8caceadc6a5d66b04089e242dc137762be6",
+      "sha256": "1e9fc234667b90a530401f80181896de61332ed08464a57c05533cedb99eeee8",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/sim.rs",
-      "sha256": "6754eefb3fbcba895623b19b19f34697dcb8da28379f74c204f79fdfdb1fc02d",
+      "sha256": "99158a4a1d99deb4ba3cd97903bc02e2d0b6075f502e31bf4d13ebc5ea0c23a5",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/snapshots.rs",
-      "sha256": "1afc3294a882faefce1ca91ca571085d42ac12859a0aa7379f2f9d045a7b4dd5",
+      "sha256": "cb45ec65ec91a07afed35c07f0cb9fa4ebfef7ed78a8f226292d2faf7ddac4e1",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/state.rs",
-      "sha256": "90df5e38edf757155c22acbf7f2a83d18e2e9a470792a6aa615f484f3f9808cc",
+      "sha256": "e77f35fe3b1e562d34efafea2f12286ddba72212040d444f4b2a993b650f4393",
       "executable": false
     },
     {
@@ -4401,7 +4401,7 @@
     },
     {
       "path": "crates/dronex-engine/src/sync.rs",
-      "sha256": "188d666a98b95a9fc779112034fb03b048b81a20d1bd6f34a9d52e6fd688b48b",
+      "sha256": "7973d08e611377c8c7baa1217c792b45f45175fd0bafa495d2ae0a6ed1a59057",
       "executable": false
     },
     {
@@ -4416,37 +4416,37 @@
     },
     {
       "path": "crates/dronex-engine/src/terrain.rs",
-      "sha256": "1bedf5aa9570ca84d8e92728be25bbfc06cee04e583ff35be3981a3440e759bc",
+      "sha256": "fd767b87ce2744bc682f5246efd606469799b40bb4751d390fa8df13d9cb95a8",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/terrain_check.rs",
-      "sha256": "a973f31252b3ed8b12da728960ec096293006ba23197f972ffdef0b8c35cc91f",
+      "sha256": "841897c54fc7332edffef44543383d50be179cdb3fc6d38bba553d3f8c6a45ca",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/terrain_keep.rs",
-      "sha256": "764a59976a9326898d06ac0026bf730dc8cd051014fdd7d0c1b7b6b9815eee63",
+      "sha256": "b0932c794a46d4f51f812ea7299b19f86615a6a39b6eb381b48b4f912cc6af95",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/trace.rs",
-      "sha256": "f5e658a3de5938563ebde117cd312999525d36557908dbc4182c2ddcca19f103",
+      "sha256": "91f998683420d7d29f720cf26944d3343ac5a9cb267484be3c0f15e3c18ca62f",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/transfers.rs",
-      "sha256": "acfc8b41f964a6ac2fbedcbcb40570a61c055b62cbe4d8425dd67c2677f48990",
+      "sha256": "8c464e8e2f96e0336e187b4f3c7dec607cb55b709cb989d17fcdeb7b294f44e6",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/tray.rs",
-      "sha256": "1f07e747cdedbb831516f568407b20ed84bd723664f84f5ce580423d2ae9c97f",
+      "sha256": "eafdf243137915e10dc10a846c47dd9976180655c6f44ec0d604e2e4ba026cdb",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/vehicle_files.rs",
-      "sha256": "01fcae24abda983754ad4678a9c5c2c70fc08d4a970f9ef8d878ff6f8d8263c6",
+      "sha256": "a324f6bd06575be06562233622d79cf1de6ec26de291aee7fb65800a4cc11643",
       "executable": false
     },
     {
@@ -4461,12 +4461,12 @@
     },
     {
       "path": "crates/dronex-engine/src/video.rs",
-      "sha256": "728b8ea6e9d3afc1ce2f3982db94222ee6e695452f991a775a07342db7a00190",
+      "sha256": "425d0b406c7f4b8e683ba5179c3e0f4d5c5ebadbf3642b7e5a62975c9980dbda",
       "executable": false
     },
     {
       "path": "crates/dronex-engine/src/watch_link.rs",
-      "sha256": "8c709e827d370eb9d7f753f3716a9a6b4ab7b9d29983b9d1f78c97a3bff45bd4",
+      "sha256": "81d4718c1e49d56b35d1503e11cc61352096424b9c4bde16a7a55f10b803166c",
       "executable": false
     },
     {
@@ -4541,7 +4541,7 @@
     },
     {
       "path": "crates/dronex-mavlink/src/links.rs",
-      "sha256": "9f90196f7bc2de1c7fc0aab7851648dd36847061009ec5ab3fc7fbeb06e86991",
+      "sha256": "37f1630b8452cb93d9a01a4eef2786505a93ec3e658b77e2379d87cc267a7a6a",
       "executable": false
     },
     {
@@ -4726,7 +4726,7 @@
     },
     {
       "path": "crates/dronex-sdk/src/lib.rs",
-      "sha256": "6f5ba9e9a4addad7a329db62901d96b042486e2483effdef2a3deeef7f438844",
+      "sha256": "69a63a21cee9d913c20f34ed0cfb46612702ee568afbbed2fd541b60b327da26",
       "executable": false
     },
     {
@@ -4796,12 +4796,12 @@
     },
     {
       "path": "crates/dronex-web/src/agent.rs",
-      "sha256": "4084de1fe2caa94eeba7897090ad4778588244e3bab0dffaf8ac4d0723ff1005",
+      "sha256": "ca65fdf0d0fa275a253518c0d93b995065a5a2c17b23baa112f364379e117456",
       "executable": false
     },
     {
       "path": "crates/dronex-web/src/gamepads.rs",
-      "sha256": "a230d227b3cb218a2622c9b782bf83c943962bfbe8aa97b93e5499cf9d968b22",
+      "sha256": "b0e7fa4bb08f32bbb7b6806d00e61b66cafbdf409f3aa3954db6555d2b6885ef",
       "executable": false
     },
     {
@@ -4811,7 +4811,7 @@
     },
     {
       "path": "crates/dronex-web/src/root.rs",
-      "sha256": "dd2b6cc38d70923fea52362cf70dc25f5e23460ab2f04da904d3b61e211854ba",
+      "sha256": "32f081fe394e0b4fa18f4a5101a3af1827a8a400e8dc8bab81590aec6793838a",
       "executable": false
     },
     {
@@ -4826,7 +4826,7 @@
     },
     {
       "path": "crates/dronex/src/account.rs",
-      "sha256": "eccde5b060b895df9a9bfd208ab8bc5cf617a28d9a65860e67ebf323a24e1e87",
+      "sha256": "7c0611368362d284a46758db163c09d998dca3f47f586a785e3c3a3beb2598ae",
       "executable": false
     },
     {
@@ -4876,7 +4876,7 @@
     },
     {
       "path": "crates/dronex/src/analytics.rs",
-      "sha256": "60ad6cb4a585c6ba6785fb408f81b7354539ce1d9f00604c4b350b0c86aa2636",
+      "sha256": "e61e5ca2df4b985dc0577987a542b1b58b190bc9e1a388e9eb0c50a2b7f63ce8",
       "executable": false
     },
     {
@@ -4886,12 +4886,12 @@
     },
     {
       "path": "crates/dronex/src/api/listeners/http.rs",
-      "sha256": "241990701e12069fff29207a5d410f0d4f80bf82c59b8ae942369f5e708b3cb3",
+      "sha256": "6ec8849b9f2e6c5f60e089847e2d440a419e18039f6f58518a0185753668cff2",
       "executable": false
     },
     {
       "path": "crates/dronex/src/api/listeners/local.rs",
-      "sha256": "de8631240f0d85a3b617e4a1ed43c96567fe178f3059c2c9c6b8554d0d283002",
+      "sha256": "709baad60a5bbc9548f299b8632e85ce841925e1502c83a4855e87a8e47b079f",
       "executable": false
     },
     {
@@ -4906,7 +4906,7 @@
     },
     {
       "path": "crates/dronex/src/app_update/files.rs",
-      "sha256": "f92032cbde44b887c04facee0fe6ee4291e26bda5cec4b395d32126f77210dea",
+      "sha256": "ce33e2efbb1418ae23a39110cb23be0ffbeae024ad2620895fad5f95e29774e5",
       "executable": false
     },
     {
@@ -4916,17 +4916,17 @@
     },
     {
       "path": "crates/dronex/src/app_update/installer/macos.rs",
-      "sha256": "dcb5e1ba344644e15cc015beb3e04748cfe880e4fcf127b6f43c97a654e9babc",
+      "sha256": "7c99be0ecb3633b374aed59c2a140584507c0f06ff11341db6fbb7e6742e8c1f",
       "executable": false
     },
     {
       "path": "crates/dronex/src/app_update/mod.rs",
-      "sha256": "154a4448355b831ecd3a73e3be5aef6618fc087899c3520091528e5e4d24862d",
+      "sha256": "53f8e9b9741b356d92caa63372e8c3c30d292a3cd373b4ecf86b1408fe6e038f",
       "executable": false
     },
     {
       "path": "crates/dronex/src/app_update/sparkle.rs",
-      "sha256": "1d2e1a5f008010a0ccb171500079749eadfe3228c83922931a2e406489c43410",
+      "sha256": "fd36320eac801a04de84588c1472bcf0330fc22d8d6f0796d68c6975fc820327",
       "executable": false
     },
     {
@@ -4986,7 +4986,7 @@
     },
     {
       "path": "crates/dronex/src/cli/practice_replay.rs",
-      "sha256": "3aa8104a6e5b9d39dd5fdf64d28d30a29ad93b66b4dcf9a17bb2963fe5b09be3",
+      "sha256": "9b4d42c952dab290146ca947876e131fb4c5c3a009e1952be9cef6b1298e317f",
       "executable": false
     },
     {
@@ -5001,12 +5001,12 @@
     },
     {
       "path": "crates/dronex/src/cli/video.rs",
-      "sha256": "66d7bffcf8887cf26a3ecc8671a2c9a0af8124953e1ad7e61d5f2779654248b1",
+      "sha256": "0ad161728a77344f43b47429e5e759d9d8bbcd37145236bca3d2ba946e932eba",
       "executable": false
     },
     {
       "path": "crates/dronex/src/daemon/agent.rs",
-      "sha256": "99253954332d28b1843a8468a9cc45e3e599291c1e2079fd0893005ff1cc3e70",
+      "sha256": "9dc734be98690b3f0cd61e9c07c8789f6057fc55885eee110fa262afd7070996",
       "executable": false
     },
     {
@@ -5016,12 +5016,12 @@
     },
     {
       "path": "crates/dronex/src/daemon/data_plane.rs",
-      "sha256": "fe83df4b9d67c89d13c00708b6b5dce2fbba563152311e8fab776abbfbad1bc0",
+      "sha256": "24893c5c1419b2cbda9be3a81416df0abcc992a1596ae2c4235a2ac843b06658",
       "executable": false
     },
     {
       "path": "crates/dronex/src/daemon/engine_task.rs",
-      "sha256": "6c13ba858c60203b2b790f3e7b21fa1beab3f01d287ca9745471cb9513f0d392",
+      "sha256": "3e8fb6707a39d8e902a2da92327ef0cb5851f329067cfeb83eae5d5958ca554a",
       "executable": false
     },
     {
@@ -5041,7 +5041,7 @@
     },
     {
       "path": "crates/dronex/src/daemon/plugins.rs",
-      "sha256": "074511bb923200c838fbc261cef50dd75c997261d36937f93dcf146911bf580c",
+      "sha256": "1c2d4654592a18a87c0e912e97acabf90c56cc568435971622e917330e9f73da",
       "executable": false
     },
     {
@@ -5051,12 +5051,12 @@
     },
     {
       "path": "crates/dronex/src/daemon/transcripts.rs",
-      "sha256": "9a27ad597663fb2d8cf2b2aaa2d2d2e154514807a4b6d889084d7ef47715b035",
+      "sha256": "98a6799caaf0704f021ea678f9bf6bc0a2e2eb8d3c9824814f47e24ac0867f15",
       "executable": false
     },
     {
       "path": "crates/dronex/src/desktop_app.rs",
-      "sha256": "243e9ef73e4d18adc7b925a3c1247e5f4b1a5ba2a97ea478f4aaca8ba7f23ddd",
+      "sha256": "e4b0460d8e82b5dfc2d8d8530c2c2b3db1bfa4075e84e7f492f3b0026aba4fb3",
       "executable": false
     },
     {
@@ -5071,17 +5071,17 @@
     },
     {
       "path": "crates/dronex/src/diagnostics/mod.rs",
-      "sha256": "92af973c8c69f4cc6ee49099b6842234f42c36a12fbc0e09d9c8b5b390b44536",
+      "sha256": "ab8962e19b354bd4af3cb1d0c878141e3760d59b9f569317cfcc6df5a4b7e054",
       "executable": false
     },
     {
       "path": "crates/dronex/src/diagnostics/packets.rs",
-      "sha256": "5fc06e5c26200868b8405851246f3021f45a14d66538c811671ca67c294d9e2e",
+      "sha256": "c524272658082d00550f0fcc25cf0a2c7059a6a6771dfd0bee51bce851e04686",
       "executable": false
     },
     {
       "path": "crates/dronex/src/diagnostics/query.rs",
-      "sha256": "57532457fe5d5165ee6ff9c509b91e758b4ba7188653cd25518a2456b4546097",
+      "sha256": "48e6c60c8224dcbdd477a70eb776ef5ae8bfef8d464f9da534ec6be6c9359c09",
       "executable": false
     },
     {
@@ -5096,12 +5096,12 @@
     },
     {
       "path": "crates/dronex/src/errors.rs",
-      "sha256": "863b56a04b6bf21d1584c3eaa13b153bca3365f99eeaaf5dcda57d9f9f47cf66",
+      "sha256": "9f9e50e6c33aa67ecf1e0af60f9078c8cda12b0d76fb6855484f1a8dd5562633",
       "executable": false
     },
     {
       "path": "crates/dronex/src/feedback.rs",
-      "sha256": "b9175fb479353d73d3bedf7b93b57dce243cb2fe0e43db8fa269ec2fd5053eb3",
+      "sha256": "4a2669e22da859a00e0e67c174ba9b9f162b772aa905cc0e63b0c877f38ba8ba",
       "executable": false
     },
     {
@@ -5136,27 +5136,27 @@
     },
     {
       "path": "crates/dronex/src/interface/mod.rs",
-      "sha256": "5471a28ee7686a9e4778fe5f86e43f536c710587c5cf54ac80c1d4ef89f55585",
+      "sha256": "8826bf6c6800efbf355eba0fc641a081af72ad993b9030d3d32a3a22cd43202a",
       "executable": false
     },
     {
       "path": "crates/dronex/src/interface/store.rs",
-      "sha256": "67c5601d0bcf10032970b66f704d5c119f045b5bc524f311a66c68100dec24f6",
+      "sha256": "fb0f381e490efe36cc0c2a036c438a57311e64d5d0e132e1a35cda102a30923c",
       "executable": false
     },
     {
       "path": "crates/dronex/src/interface/tests.rs",
-      "sha256": "d97c314e0274e59f58a9e30f01d9d67c70e4794a213f88bb49c5eb8109eb7f9f",
+      "sha256": "fa2ab7caae05a0616c17a7992c12ede9215406f073dde86745f005acb7c72083",
       "executable": false
     },
     {
       "path": "crates/dronex/src/live_video.rs",
-      "sha256": "522315b9dab4da2a0c787015009a4309e6aa0e8eb6dd4901159f2a365d295a43",
+      "sha256": "5b3b09bf6a747d276f9166e9e1086b1bdb8f9e69b48c6e76d3a8afd1ade9bb20",
       "executable": false
     },
     {
       "path": "crates/dronex/src/logs.rs",
-      "sha256": "21277f5e3f2acd9c40b2ecdcdd5148aa101d32c8766b7255bde046bdc52167ab",
+      "sha256": "02dabc9d4a4fe872ec8c3d6cb3cefba2722f4591b6bc014618d6bf4c40379376",
       "executable": false
     },
     {
@@ -5166,32 +5166,32 @@
     },
     {
       "path": "crates/dronex/src/mcp.rs",
-      "sha256": "7da134d97e094bdb2aa25702045c78a826105fd8dc82a6b3f37194b216c27048",
+      "sha256": "2573e3602c9949ca3ff476fd403c064b64bb73431c47af292e1861e9d0566338",
       "executable": false
     },
     {
       "path": "crates/dronex/src/mcp/catalogue.rs",
-      "sha256": "77854ec4b81ea7d21b296f83a8ed9bc96de262aa1fc93e76aa71feb896572c1a",
+      "sha256": "c5f050c0ac19bf2374eb8920d4058dab11f78449f5e60d6b70c3f64c302d54c2",
       "executable": false
     },
     {
       "path": "crates/dronex/src/network.rs",
-      "sha256": "9ccfe9f21acbf5e8ce78f0501b1c6753630e3297f7fcaac09635d04b1223a3f7",
+      "sha256": "31a2028964adb04138a4998c72c1ca28884a709e9a2d6172a5315c5af0dbbb8d",
       "executable": false
     },
     {
       "path": "crates/dronex/src/network/names.rs",
-      "sha256": "a714540ad7e9af64d58ae4d8de8df1341d9f01c289969d40c61ae1e6148fd171",
+      "sha256": "c2ec4d569e1fa85396f863764c5187062ba20bb60eb060aa83f2b3b06b00e39e",
       "executable": false
     },
     {
       "path": "crates/dronex/src/online.rs",
-      "sha256": "1b0c79647d24ec13b5dd00531009eafc4fd1bf3cec76f6856126eb6fcc061a37",
+      "sha256": "ad36c9c9f9551898e873819928cf102a9267ee376adac53e2c5969b5fcf7f6bb",
       "executable": false
     },
     {
       "path": "crates/dronex/src/params.rs",
-      "sha256": "dc823a52938e9c9c71e5fb6b58571518de3f65d053bc5857cc8ba436418de4ad",
+      "sha256": "4151b439cfdef3c562388ee98748681e226c36fd2ddc47467a13f92d0587f085",
       "executable": false
     },
     {
@@ -5206,7 +5206,7 @@
     },
     {
       "path": "crates/dronex/src/places.rs",
-      "sha256": "4aecbd56ccb8b19e67efd47df8e6089275e47fd9cfb1f98806147ee76b24fee7",
+      "sha256": "e3d0a6ebd66587b48c3a4883558a509f1167fb01b97245fb4271f76e8dadd910",
       "executable": false
     },
     {
@@ -5221,7 +5221,7 @@
     },
     {
       "path": "crates/dronex/src/remote_users.rs",
-      "sha256": "fe6125ec94fcf987692c42a1b2bd5bff3c1116e5f50ba61e2331dc6fbbc9bf93",
+      "sha256": "8bf19540f31fec68bbbb149309ee20f762766b9dc7f158010c245224753869c9",
       "executable": false
     },
     {
@@ -5246,12 +5246,12 @@
     },
     {
       "path": "crates/dronex/src/sim/catalogue.rs",
-      "sha256": "8888f789a0be4a44bcf932bde4cf4659e87682524d96de370b3fd0511a4b23cd",
+      "sha256": "fe5f7d993d36521603bd07c5d26594b2331c5b1593f55b754187e2e7c9b00c15",
       "executable": false
     },
     {
       "path": "crates/dronex/src/sim/mod.rs",
-      "sha256": "c1dd223dd9fe87d07dec0b1e228415775a26de5652e8a8627f7c547266b33bef",
+      "sha256": "ac2ccfe638242c00d4bd8aaddf798e57b6575e0084eb47f84cd679f22e5e8f84",
       "executable": false
     },
     {
@@ -5346,17 +5346,17 @@
     },
     {
       "path": "crates/dronex/src/store/sqlite.rs",
-      "sha256": "db5a3098524b2564b92818b01b73f499e1baf435aec3f0cc8399e462475a4dfd",
+      "sha256": "3eb28c9197ffac5f9addb2b19f4a896ff022fc1b848152c6a62ddb63c6fb5abd",
       "executable": false
     },
     {
       "path": "crates/dronex/src/sync.rs",
-      "sha256": "9ee378076c2890c403f6092d7fec2d7b9cf4cffc2e1c5bc42e4e77fc5597e7c4",
+      "sha256": "d93de1b468e90ada0e63fcb57b3122c763dba3ec31ca097af30f2cd091f438d7",
       "executable": false
     },
     {
       "path": "crates/dronex/src/terrain.rs",
-      "sha256": "20d7d486ba7c6d68098ee5db263691d8ae1c46a4ab412b41f225eab3f7a08b33",
+      "sha256": "c3b76d2083d571aecfdb07027d00309a1b96962c9e7c17cb324d555d15156a85",
       "executable": false
     },
     {
@@ -5371,12 +5371,12 @@
     },
     {
       "path": "crates/dronex/src/update.rs",
-      "sha256": "df73b2ed343693d5b7b5b1eb63ce69ad63ae54688a53332745ec5114cfe9f270",
+      "sha256": "aa027827beb2d483e2d5f70a5849b59cee6fa5102883112d90dd196bab4ef786",
       "executable": false
     },
     {
       "path": "crates/dronex/src/uploader.rs",
-      "sha256": "cf878e6ceb1e635d434460590282c23ceee96cbeb309f193c50b834c5061a4a0",
+      "sha256": "e3d40e2518193cf0b46c45c213009fc9c2a9b688ec15d6d141def51109206595",
       "executable": false
     },
     {
@@ -5386,17 +5386,17 @@
     },
     {
       "path": "crates/dronex/src/video/capture.rs",
-      "sha256": "833a41a077027c2bab71fea4264520f98f54ca7873ef1d4270019ca49c8d1942",
+      "sha256": "ab3cc6da709e86320cecf8badfec72f2584f03f74ca87d1a7beae0933cc96718",
       "executable": false
     },
     {
       "path": "crates/dronex/src/video/demos.rs",
-      "sha256": "5f1e60399cf24d1f58f33bc625d8def8fbf74a20f8cccb662c4709746fc1d923",
+      "sha256": "6c2eaf0e300ae0492e5bac9b3ab8079e6a3806a29536fd3a50966dcd0f1e14ff",
       "executable": false
     },
     {
       "path": "crates/dronex/src/video/file.rs",
-      "sha256": "1cb179390de45b5b252177d8ccc419bbf5269707ee1119c5241cceab429e80ea",
+      "sha256": "4f96f861746834df89859ea71757444ec4fd3eb77f61b524be5949344c3812de",
       "executable": false
     },
     {
@@ -5436,12 +5436,12 @@
     },
     {
       "path": "crates/dronex/src/video/rtsp.rs",
-      "sha256": "0527fa59dbd87558c37848588ab17f47f77347f4cd935f4db8af60e5fd0053c9",
+      "sha256": "ce476e7e8cb675c653c8519d67d8b6e3b1065683a5062d6b452a7a10b2fb68be",
       "executable": false
     },
     {
       "path": "crates/dronex/src/video/socket.rs",
-      "sha256": "dfaaae8fc54f7efca4f18344e6e2ad5896ced8b8e95113f462a095f27235c431",
+      "sha256": "e10682186cf2434b60eb50ebd464d2460070648ddd739f745bb5760f105d4859",
       "executable": false
     },
     {
@@ -5451,7 +5451,7 @@
     },
     {
       "path": "crates/dronex/src/watch.rs",
-      "sha256": "8beeb8fa9885e49a3d45501e555b62f827f0419bf26cf380438ef1c315235ea5",
+      "sha256": "8d1b88c5e150c1fb211d0092ab709d1d3375e41dba2c2c21fcbba4841730de91",
       "executable": false
     },
     {

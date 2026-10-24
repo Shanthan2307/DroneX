@@ -16,9 +16,6 @@
 
 use std::path::Path;
 
-use serde::Serialize;
-use serde::de::DeserializeOwned;
-use serde_json::Value;
 use dronex_contracts::dto::Empty;
 use dronex_contracts::dto::initialize::{Capability, ClientKind, InitializeResult};
 use dronex_contracts::dto::link::{Link, SerialListResult};
@@ -30,6 +27,9 @@ use dronex_contracts::dto::thread::{AgentConfig, Folder, Item, Thread, ThreadBul
 use dronex_contracts::dto::vehicle::{Vehicle, VehicleListResult};
 use dronex_contracts::errors::{ApiError, ErrorKind};
 use dronex_contracts::rpc::{ClientNotification, ClientRequest, ServerNotification};
+use serde::Serialize;
+use serde::de::DeserializeOwned;
+use serde_json::Value;
 
 fn dir() -> std::path::PathBuf {
     Path::new(env!("CARGO_MANIFEST_DIR")).join("fixtures")

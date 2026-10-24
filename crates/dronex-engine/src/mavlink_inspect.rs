@@ -15,11 +15,11 @@
 use std::collections::HashMap;
 use std::collections::hash_map::Entry as Slot;
 
-use serde_json::{Map, Value};
 use dronex_contracts::dto::inspect::{
     InspectDirection, InspectedMessage, MavlinkHistoryResult, MavlinkInspectResult, PastMessage,
 };
 use dronex_mavlink::framing::Header;
+use serde_json::{Map, Value};
 
 /// Message types kept per vehicle. A vehicle that sends more than this is
 /// not sending MAVLink as we know it: its entries start again.

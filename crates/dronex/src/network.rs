@@ -9,8 +9,8 @@ use std::net::{IpAddr, Ipv4Addr, SocketAddr};
 use std::sync::Arc;
 use std::time::Duration;
 
-use tokio::sync::watch;
 use dronex_contracts::dto::network::{NetworkAddress, NetworkStatus};
+use tokio::sync::watch;
 
 use crate::api::listeners::http;
 use crate::daemon::engine_task::EngineHandle;

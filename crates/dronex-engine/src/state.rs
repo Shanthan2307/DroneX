@@ -4,7 +4,6 @@
 
 use std::collections::BTreeMap;
 
-use serde::{Deserialize, Serialize};
 use dronex_core::domain::approval::{Approval, ApprovalState};
 use dronex_core::domain::client::ClientRecord;
 use dronex_core::domain::command::Receipt;
@@ -26,6 +25,7 @@ use dronex_core::domain::thread::{Folder, Item, Thread};
 use dronex_core::domain::vehicle::Vehicle;
 use dronex_core::domain::video::{VideoPhoto, VideoRecording, VideoSource};
 use dronex_core::events::{Change, Event};
+use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Default, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

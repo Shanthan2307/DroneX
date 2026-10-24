@@ -14,8 +14,8 @@ use std::collections::BTreeMap;
 use std::path::Path;
 use std::time::Duration;
 
-use serde::{Deserialize, Serialize};
 use dronex_contracts::dto::release::{MANIFEST_SCHEMA, ReleaseArtifact, ReleaseManifest};
+use serde::{Deserialize, Serialize};
 
 /// Where channels are published: the production app's static site.
 pub const DEFAULT_URL: &str = match option_env!("DRONEX_UPDATE_TEST_URL") {
