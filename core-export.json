@@ -5626,7 +5626,7 @@
     },
     {
       "path": "plugins/home-distance-ts/index.ts",
-      "sha256": "f7a374ce83e650e6ed9ae7e54414ee7072ece21b6ff50fc9908f53daa5bd0d0d",
+      "sha256": "c4e61b2c25551e83e58f18eed619b4128252268bb8cdb8706fe200d87cab44dd",
       "executable": false
     },
     {
@@ -5646,7 +5646,7 @@
     },
     {
       "path": "plugins/home-distance/src/lib.rs",
-      "sha256": "3cef0e31d1690a76f4e8b92c3e80a05490489981b853435ccf522ec932c9d5cd",
+      "sha256": "e6cb2ff6a4dd6c54dee68cfd2bb2b62f55aff586a171a739c9da15d1e8ed3084",
       "executable": false
     },
     {
@@ -5675,13 +5675,18 @@
       "executable": false
     },
     {
+      "path": "scripts/simulator-programs.sh",
+      "sha256": "86cbe86bacec05bc92e35862f528b93fe8102109997e75a64aa3b420b7bf8842",
+      "executable": false
+    },
+    {
       "path": "scripts/simulator.sh",
-      "sha256": "ac22db7f7aa0c21288bccfcfe9ae383d0f8a46dac455a00ef825d864ae9ec0ba",
+      "sha256": "ed5c8551927be14e0b608a76034a7ff5c6272212124333c1d917043344419938",
       "executable": true
     },
     {
       "path": "scripts/sitl.sh",
-      "sha256": "33e6476169f75f13e9576717147e3eef9e5636c656ffc69e074f8b18a609e302",
+      "sha256": "84968bbd4f48c788f460ca03c989d83397708601dbf1f13c41cd13d6408faf91",
       "executable": true
     },
     {

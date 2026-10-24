@@ -140,6 +140,9 @@ pub fn messages(batch: &MessageBatch) -> Effects {
             let Some(position) = GlobalPositionInt::from_input(input) else {
                 continue;
             };
+            if position.lat == 0 && position.lon == 0 {
+                continue; // No estimate yet: home would be off the coast of Africa.
+            }
             // `lat` and `lon` are in degE7.
             let here = (f64::from(position.lat) / 1e7, f64::from(position.lon) / 1e7);
             let vehicle = vehicles.entry(input.vehicle_id.clone()).or_default();

@@ -34,7 +34,12 @@ git -C "$ap" checkout --quiet --force FETCH_HEAD
 git -C "$ap" submodule update --init --recursive --force --depth 1 --jobs 8 \
   modules/waf modules/mavlink modules/DroneCAN/DSDL modules/DroneCAN/dronecan_dsdlc \
   modules/DroneCAN/libcanard modules/DroneCAN/pydronecan modules/lwip modules/littlefs
-python3 "$root/scripts/prepare-simulator.py" "$ap"
+# Not part of this export: ArduPilot builds natively without it.
+if [ -f "$root/scripts/prepare-simulator.py" ]; then
+  python3 "$root/scripts/prepare-simulator.py" "$ap"
+else
+  echo "simulator.sh: no scripts/prepare-simulator.py; building ArduPilot as it is (the WebAssembly build may need its patches)" >&2
+fi
 
 # scripts/sitl.sh shares the checkout.
 [ "${1:-}" = "--checkout-only" ] && exit 0

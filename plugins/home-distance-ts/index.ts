@@ -65,6 +65,8 @@ export function onMessages(batch: MessageBatch): Effects {
       (message.fields.lat as number) / 1e7,
       (message.fields.lon as number) / 1e7,
     ];
+    // No estimate yet: home would be off the coast of Africa.
+    if (here[0] === 0 && here[1] === 0) continue;
     const state = vehicle(message.vehicleId);
     if (!state.home) {
       state.home = here;

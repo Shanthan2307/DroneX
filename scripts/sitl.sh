@@ -45,7 +45,12 @@ if [ ! -x "$ap/waf" ] || [ "$current" != "$wanted" ]; then
   # A cache can restore its .git without its files, so the files decide.
   "$root/scripts/simulator.sh" --checkout-only
 fi
-python3 "$root/scripts/prepare-simulator.py" "$ap"
+# Not part of this export: ArduPilot builds natively without it.
+if [ -f "$root/scripts/prepare-simulator.py" ]; then
+  python3 "$root/scripts/prepare-simulator.py" "$ap"
+else
+  echo "sitl.sh: no scripts/prepare-simulator.py; building ArduPilot as it is" >&2
+fi
 
 cd "$ap"
 # A CI cache can restore part of a venv; one without its activate script is
